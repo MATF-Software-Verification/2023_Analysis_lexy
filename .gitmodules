@@ -1,0 +1,3 @@
+[submodule "Mafija"]
+	path = Mafija
+	url = https://gitlab.com/matf-bg-ac-rs/course-rs/projects-2025-2026/Mafija.git
