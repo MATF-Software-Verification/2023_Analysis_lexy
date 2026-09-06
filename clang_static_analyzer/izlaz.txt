@@ -1,0 +1,96 @@
+scan-build: Using '/usr/lib/llvm-21/bin/clang' for static analysis
+scan-build: Emitting reports for this run to '/home/milica/Desktop/2023_Analysis_lexy/clang_static_analyzer/2026-09-06-230604-22651-1'.
+[  0%] Built target Shared_autogen_timestamp_deps
+[  1%] Automatic MOC and UIC for target Shared
+[  1%] Built target Shared_autogen
+[  2%] Building CXX object server_client/Shared/CMakeFiles/Shared.dir/votecounter.cpp.o
+[  6%] Building CXX object server_client/Shared/CMakeFiles/Shared.dir/protocol.cpp.o
+[  6%] Building CXX object server_client/Shared/CMakeFiles/Shared.dir/voiceprotocol.cpp.o
+[  6%] Building CXX object server_client/Shared/CMakeFiles/Shared.dir/Shared_autogen/mocs_compilation.cpp.o
+[  8%] Building CXX object server_client/Shared/CMakeFiles/Shared.dir/votingserver.cpp.o
+[  9%] Building CXX object server_client/Shared/CMakeFiles/Shared.dir/nightabilitiesserver.cpp.o
+[ 10%] Building CXX object server_client/Shared/CMakeFiles/Shared.dir/votinground.cpp.o
+[ 12%] Building CXX object server_client/Shared/CMakeFiles/Shared.dir/nightaction.cpp.o
+[ 13%] Linking CXX static library libShared.a
+[ 15%] Built target Shared
+[ 15%] Built target Client_autogen_timestamp_deps
+[ 15%] Built target Server_autogen_timestamp_deps
+[ 17%] Automatic MOC and UIC for target Server
+[ 17%] Automatic MOC and UIC for target Client
+[ 17%] Built target Client_autogen
+[ 17%] Built target Server_autogen
+[ 19%] Building CXX object server_client/Client/CMakeFiles/Client.dir/Client_autogen/mocs_compilation.cpp.o
+[ 21%] Building CXX object server_client/Client/CMakeFiles/Client.dir/voiceclient.cpp.o
+[ 21%] Building CXX object server_client/Client/CMakeFiles/Client.dir/chatclient.cpp.o
+[ 23%] Building CXX object server_client/Server/CMakeFiles/Server.dir/serverworker.cpp.o
+[ 24%] Building CXX object server_client/Server/CMakeFiles/Server.dir/voiceserver.cpp.o
+[ 27%] Building CXX object server_client/Server/CMakeFiles/Server.dir/Server_autogen/mocs_compilation.cpp.o
+[ 27%] Building CXX object server_client/Server/CMakeFiles/Server.dir/chatserver.cpp.o
+[ 28%] Linking CXX static library libServer.a
+[ 30%] Built target Server
+[ 31%] Linking CXX static library libClient.a
+[ 32%] Built target Client
+[ 32%] Built target game_autogen_timestamp_deps
+[ 34%] Automatic MOC and UIC for target game
+[ 34%] Built target game_autogen
+[ 35%] Building CXX object game/CMakeFiles/game.dir/Role.cpp.o
+[ 36%] Building CXX object game/CMakeFiles/game.dir/game_autogen/mocs_compilation.cpp.o
+[ 39%] Building CXX object game/CMakeFiles/game.dir/GameState.cpp.o
+[ 39%] Building CXX object game/CMakeFiles/game.dir/Player.cpp.o
+[ 41%] Building CXX object game/CMakeFiles/game.dir/gamemanager.cpp.o
+[ 42%] Building CXX object game/CMakeFiles/game.dir/DetectiveRole.cpp.o
+[ 43%] Building CXX object game/CMakeFiles/game.dir/DoctorRole.cpp.o
+[ 45%] Building CXX object game/CMakeFiles/game.dir/citizenrole.cpp.o
+[ 46%] Building CXX object game/CMakeFiles/game.dir/mafiarole.cpp.o
+[ 47%] Linking CXX static library libgame.a
+[ 49%] Built target game
+[ 49%] Built target graphics_items_autogen_timestamp_deps
+[ 50%] Automatic MOC and UIC for target graphics_items
+[ 50%] Built target graphics_items_autogen
+[ 52%] Building CXX object GUI/graphics_items/CMakeFiles/graphics_items.dir/graphics_items_autogen/mocs_compilation.cpp.o
+[ 53%] Building CXX object GUI/graphics_items/CMakeFiles/graphics_items.dir/playericon.cpp.o
+[ 54%] Linking CXX static library libgraphics_items.a
+[ 56%] Built target graphics_items
+[ 56%] Built target GUI_autogen_timestamp_deps
+[ 56%] Built target tests_autogen_timestamp_deps
+[ 57%] Automatic MOC and UIC for target GUI
+[ 58%] Automatic MOC for target tests
+[ 58%] Built target tests_autogen
+[ 60%] Building CXX object tests/CMakeFiles/tests.dir/tests_main.cpp.o
+[ 61%] Building CXX object tests/CMakeFiles/tests.dir/tests_autogen/mocs_compilation.cpp.o
+[ 63%] Building CXX object tests/CMakeFiles/tests.dir/test_role.cpp.o
+[ 65%] Building CXX object tests/CMakeFiles/tests.dir/test_player.cpp.o
+[ 65%] Building CXX object tests/CMakeFiles/tests.dir/test_gamemanager.cpp.o
+[ 67%] Building CXX object tests/CMakeFiles/tests.dir/test_playericon.cpp.o
+[ 68%] Building CXX object tests/CMakeFiles/tests.dir/test_gamestate.cpp.o
+[ 69%] Building CXX object tests/CMakeFiles/tests.dir/test_voiceclient_catch.cpp.o
+[ 71%] Building CXX object tests/CMakeFiles/tests.dir/test_voiceserver_catch.cpp.o
+[ 72%] Building CXX object tests/CMakeFiles/tests.dir/test_voiceprotocol_catch.cpp.o
+[ 73%] Building CXX object tests/CMakeFiles/tests.dir/test_votecounter.cpp.o
+[ 75%] Building CXX object tests/CMakeFiles/tests.dir/test_nightabilities.cpp.o
+[ 75%] Built target GUI_autogen
+[ 76%] Automatic RCC for resources.qrc
+[ 78%] Building CXX object GUI/CMakeFiles/GUI.dir/GUI_autogen/mocs_compilation.cpp.o
+[ 80%] Building CXX object GUI/CMakeFiles/GUI.dir/startgamewindow.cpp.o
+[ 82%] Building CXX object GUI/CMakeFiles/GUI.dir/startmeniwindow.cpp.o
+[ 79%] Building CXX object GUI/CMakeFiles/GUI.dir/mainwindow.cpp.o
+[ 83%] Building CXX object GUI/CMakeFiles/GUI.dir/voicechatwidget.cpp.o
+[ 86%] Building CXX object GUI/CMakeFiles/GUI.dir/waitingroom.cpp.o
+[ 87%] Building CXX object GUI/CMakeFiles/GUI.dir/maingamewindow.cpp.o
+[ 87%] Building CXX object GUI/CMakeFiles/GUI.dir/joingamewindow.cpp.o
+[ 89%] Building CXX object GUI/CMakeFiles/GUI.dir/settingswindow.cpp.o
+[ 90%] Building CXX object GUI/CMakeFiles/GUI.dir/GUI_autogen/EWIEGA46WW/qrc_resources.cpp.o
+[ 93%] Building CXX object GUI/CMakeFiles/GUI.dir/gamewindow.cpp.o
+[ 93%] Building CXX object GUI/CMakeFiles/GUI.dir/graphics_items/playericon.cpp.o
+[ 94%] Building CXX object GUI/CMakeFiles/GUI.dir/main.cpp.o
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/mainwindow.cpp:97:12: warning: enumeration values 'JoinGame' and 'StartGame' not handled in switch [-Wswitch]
+   97 |     switch(window){
+      |            ^~~~~~
+1 warning generated.
+[ 95%] Linking CXX executable tests
+[ 97%] Linking CXX executable GUI
+[ 98%] Built target tests
+[100%] Built target GUI
+scan-build: Analysis run complete.
+scan-build: Removing directory '/home/milica/Desktop/2023_Analysis_lexy/clang_static_analyzer/2026-09-06-230604-22651-1' because it contains no reports.
+scan-build: No bugs found.

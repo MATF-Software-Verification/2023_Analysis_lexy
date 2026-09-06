@@ -1,0 +1,71 @@
+Clang Static Analyzer - Mafija
+
+==========================================
+Datum
+==========================================
+Sun Sep  6 11:06:47 PM CEST 2026
+
+==========================================
+Projekat
+==========================================
+/home/milica/Desktop/2023_Analysis_lexy/clang_static_analyzer/../Mafija
+
+==========================================
+Build direktorijum
+==========================================
+/home/milica/Desktop/2023_Analysis_lexy/clang_static_analyzer/build
+
+==========================================
+Clang
+==========================================
+Putanja:
+/usr/bin/clang
+
+Ubuntu clang version 21.1.8 (6ubuntu1)
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/lib/llvm-21/bin
+
+==========================================
+Clang++
+==========================================
+Putanja:
+/usr/bin/clang++
+
+Ubuntu clang version 21.1.8 (6ubuntu1)
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/lib/llvm-21/bin
+
+==========================================
+scan-build
+==========================================
+Putanja:
+/usr/bin/scan-build
+
+USAGE: scan-build [options] <build command> [build options]
+
+OPTIONS:
+
+==========================================
+scan-view
+==========================================
+/usr/bin/scan-view
+
+==========================================
+Checkeri
+==========================================
+core
+unix
+security
+deadcode
+
+==========================================
+CMake build type
+==========================================
+Debug
+
+==========================================
+Status analize
+==========================================
+0
