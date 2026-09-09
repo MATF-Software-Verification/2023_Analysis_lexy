@@ -1,0 +1,228 @@
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp: QT_CORE_LIB=1;QT_NO_DEBUG=1...
+1/32 files checked 3% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/voiceprotocol.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/voiceprotocol.cpp: QT_CORE_LIB=1;QT_NO_DEBUG=1...
+2/32 files checked 6% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votingserver.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votingserver.cpp: QT_CORE_LIB=1;QT_NO_DEBUG=1...
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votingserver.cpp:14:59: performance: Function parameter 'candidates' should be passed by const reference. [passedByValue]
+void VotingServer::on_start_voting_phase(QVector<QString> candidates){
+                                                          ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votingserver.cpp:23:60: performance: Function parameter 'result' should be passed by const reference. [passedByValue]
+void VotingServer::on_voting_round_result(QVector<QString> result, QVector<QPair<QString,QString>> votes){
+                                                           ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votingserver.cpp:23:100: performance: Function parameter 'votes' should be passed by const reference. [passedByValue]
+void VotingServer::on_voting_round_result(QVector<QString> result, QVector<QPair<QString,QString>> votes){
+                                                                                                   ^
+3/32 files checked 9% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votecounter.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votecounter.cpp: QT_CORE_LIB=1;QT_NO_DEBUG=1...
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votecounter.cpp:6:40: performance: Function parameter 'voter' should be passed by const reference. [passedByValue]
+    void VoteCounter::add_vote(QString voter, QString vote){
+                                       ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votecounter.cpp:6:55: performance: Function parameter 'vote' should be passed by const reference. [passedByValue]
+    void VoteCounter::add_vote(QString voter, QString vote){
+                                                      ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votecounter.cpp:48:56: performance: Function parameter 'player' should be passed by const reference. [passedByValue]
+    unsigned int VoteCounter::m_get_vote_count(QString player){
+                                                       ^
+4/32 files checked 12% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votinground.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votinground.cpp: QT_CORE_LIB=1;QT_NO_DEBUG=1...
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votinground.cpp:14:47: performance: Function parameter 'voter' should be passed by const reference. [passedByValue]
+    void VotingRound::on_player_voted(QString voter, QString vote){
+                                              ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votinground.cpp:14:62: performance: Function parameter 'vote' should be passed by const reference. [passedByValue]
+    void VotingRound::on_player_voted(QString voter, QString vote){
+                                                             ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votinground.cpp:20:56: performance: Function parameter 'candidates' should be passed by const reference. [passedByValue]
+    void VotingRound::on_start_voting(QVector<QString> candidates){
+                                                       ^
+5/32 files checked 15% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/nightabilitiesserver.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/nightabilitiesserver.cpp: QT_CORE_LIB=1;QT_NO_DEBUG=1...
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/nightabilitiesserver.cpp:18:76: performance: Function parameter 'plr' should be passed by const reference. [passedByValue]
+void night_abilities::NightAbilitiesServer::on_player_used_ability(QString plr, QString target){
+                                                                           ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/nightabilitiesserver.cpp:18:89: performance: Function parameter 'target' should be passed by const reference. [passedByValue]
+void night_abilities::NightAbilitiesServer::on_player_used_ability(QString plr, QString target){
+                                                                                        ^
+6/32 files checked 18% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/nightaction.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/nightaction.cpp: QT_CORE_LIB=1;QT_NO_DEBUG=1...
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/nightaction.h:13:17: performance: Function 'get_target()' should return member 'm_target' by const reference. [returnByReference]
+        QString get_target() const;
+                ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/nightaction.cpp:5:57: performance: Function parameter 'target' should be passed by const reference. [passedByValue]
+NightAction::NightAction(NightActionTypes type, QString target):
+                                                        ^
+7/32 files checked 21% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/chatclient.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/chatclient.cpp: QT_CORE_LIB=1;QT_GUI_LIB=1;QT_MULTIMEDIA_LIB=1;QT_NETWORK_LIB=1;QT_NO_DEBUG=1;QT_WIDGETS_LIB=1...
+8/32 files checked 25% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/voiceclient.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/voiceclient.cpp: QT_CORE_LIB=1;QT_GUI_LIB=1;QT_MULTIMEDIA_LIB=1;QT_NETWORK_LIB=1;QT_NO_DEBUG=1;QT_WIDGETS_LIB=1...
+9/32 files checked 28% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp: QT_CORE_LIB=1;QT_NETWORK_LIB=1;QT_NO_DEBUG=1...
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:309:14: performance: Range variable 'x' should be declared as const reference. [iterateByValue]
+    for(auto x:plrs)
+             ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:332:60: performance: Function parameter 'killed_plr' should be passed by const reference. However it seems that 'handle_inform_client_night_action' is a callback function. [passedByValueCallback]
+void ChatServer::handle_inform_client_night_action(QString killed_plr, QMap<QString, QString> night_info){
+                                                           ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:265:32: note: Function pointer used here.
+            this, &ChatServer::handle_inform_client_night_action, Qt::UniqueConnection);
+                               ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:332:60: note: Function parameter 'killed_plr' should be passed by const reference. However it seems that 'handle_inform_client_night_action' is a callback function.
+void ChatServer::handle_inform_client_night_action(QString killed_plr, QMap<QString, QString> night_info){
+                                                           ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:332:95: performance: Function parameter 'night_info' should be passed by const reference. However it seems that 'handle_inform_client_night_action' is a callback function. [passedByValueCallback]
+void ChatServer::handle_inform_client_night_action(QString killed_plr, QMap<QString, QString> night_info){
+                                                                                              ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:265:32: note: Function pointer used here.
+            this, &ChatServer::handle_inform_client_night_action, Qt::UniqueConnection);
+                               ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:332:95: note: Function parameter 'night_info' should be passed by const reference. However it seems that 'handle_inform_client_night_action' is a callback function.
+void ChatServer::handle_inform_client_night_action(QString killed_plr, QMap<QString, QString> night_info){
+                                                                                              ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:348:70: performance: Function parameter 'players_to_kill' should be passed by const reference. However it seems that 'handle_inform_client_voting_result' is a callback function. [passedByValueCallback]
+void ChatServer::handle_inform_client_voting_result(QVector<QString> players_to_kill, QVector<QPair<QString, QString> > votes){
+                                                                     ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:271:32: note: Function pointer used here.
+            this, &ChatServer::handle_inform_client_voting_result, Qt::UniqueConnection);
+                               ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:348:70: note: Function parameter 'players_to_kill' should be passed by const reference. However it seems that 'handle_inform_client_voting_result' is a callback function.
+void ChatServer::handle_inform_client_voting_result(QVector<QString> players_to_kill, QVector<QPair<QString, QString> > votes){
+                                                                     ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:348:121: performance: Function parameter 'votes' should be passed by const reference. However it seems that 'handle_inform_client_voting_result' is a callback function. [passedByValueCallback]
+void ChatServer::handle_inform_client_voting_result(QVector<QString> players_to_kill, QVector<QPair<QString, QString> > votes){
+                                                                                                                        ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:271:32: note: Function pointer used here.
+            this, &ChatServer::handle_inform_client_voting_result, Qt::UniqueConnection);
+                               ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:348:121: note: Function parameter 'votes' should be passed by const reference. However it seems that 'handle_inform_client_voting_result' is a callback function.
+void ChatServer::handle_inform_client_voting_result(QVector<QString> players_to_kill, QVector<QPair<QString, QString> > votes){
+                                                                                                                        ^
+10/32 files checked 31% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/serverworker.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/serverworker.cpp: QT_CORE_LIB=1;QT_NETWORK_LIB=1;QT_NO_DEBUG=1...
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/serverworker.h:16:13: performance: Function 'get_username()' should return member 'm_username' by const reference. [returnByReference]
+    QString get_username() const;
+            ^
+11/32 files checked 34% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/voiceserver.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/voiceserver.cpp: QT_CORE_LIB=1;QT_NETWORK_LIB=1;QT_NO_DEBUG=1...
+12/32 files checked 37% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp: QT_CORE_LIB=1;QT_GUI_LIB=1;QT_MULTIMEDIA_LIB=1;QT_NETWORK_LIB=1;QT_NO_DEBUG=1;QT_WIDGETS_LIB=1...
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:229:40: performance: Function parameter 'killed' should be passed by const reference. However it seems that 'night_end' is a callback function. [passedByValueCallback]
+void MainGameWindow::night_end(QString killed, QMap<QString, QString> info)
+                                       ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:73:72: note: Function pointer used here.
+    connect(m_client, &ChatClient::night_ended, this, &MainGameWindow::night_end);
+                                                                       ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:229:40: note: Function parameter 'killed' should be passed by const reference. However it seems that 'night_end' is a callback function.
+void MainGameWindow::night_end(QString killed, QMap<QString, QString> info)
+                                       ^
+13/32 files checked 40% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/mainwindow.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/mainwindow.cpp: QT_CORE_LIB=1;QT_GUI_LIB=1;QT_MULTIMEDIA_LIB=1;QT_NETWORK_LIB=1;QT_NO_DEBUG=1;QT_WIDGETS_LIB=1...
+14/32 files checked 43% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/voicechatwidget.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/voicechatwidget.cpp: QT_CORE_LIB=1;QT_GUI_LIB=1;QT_MULTIMEDIA_LIB=1;QT_NETWORK_LIB=1;QT_NO_DEBUG=1;QT_WIDGETS_LIB=1...
+15/32 files checked 46% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/startmeniwindow.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/startmeniwindow.cpp: QT_CORE_LIB=1;QT_GUI_LIB=1;QT_MULTIMEDIA_LIB=1;QT_NETWORK_LIB=1;QT_NO_DEBUG=1;QT_WIDGETS_LIB=1...
+16/32 files checked 50% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/joingamewindow.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/joingamewindow.cpp: QT_CORE_LIB=1;QT_GUI_LIB=1;QT_MULTIMEDIA_LIB=1;QT_NETWORK_LIB=1;QT_NO_DEBUG=1;QT_WIDGETS_LIB=1...
+17/32 files checked 53% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/startgamewindow.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/startgamewindow.cpp: QT_CORE_LIB=1;QT_GUI_LIB=1;QT_MULTIMEDIA_LIB=1;QT_NETWORK_LIB=1;QT_NO_DEBUG=1;QT_WIDGETS_LIB=1...
+18/32 files checked 56% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/settingswindow.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/settingswindow.cpp: QT_CORE_LIB=1;QT_GUI_LIB=1;QT_MULTIMEDIA_LIB=1;QT_NETWORK_LIB=1;QT_NO_DEBUG=1;QT_WIDGETS_LIB=1...
+19/32 files checked 59% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/waitingroom.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/waitingroom.cpp: QT_CORE_LIB=1;QT_GUI_LIB=1;QT_MULTIMEDIA_LIB=1;QT_NETWORK_LIB=1;QT_NO_DEBUG=1;QT_WIDGETS_LIB=1...
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/waitingroom.cpp:114:63: performance: Function parameter 'username' should be passed by const reference. However it seems that 'move_to_game' is a callback function. [passedByValueCallback]
+void WaitingRoom::move_to_game(mafia_game::Role role, QString username, QHash<QString,mafia_game::Role> roles)
+                                                              ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/waitingroom.cpp:35:68: note: Function pointer used here.
+    connect(m_client,&ChatClient::role_assigned,this,&WaitingRoom::move_to_game);
+                                                                   ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/waitingroom.cpp:114:63: note: Function parameter 'username' should be passed by const reference. However it seems that 'move_to_game' is a callback function.
+void WaitingRoom::move_to_game(mafia_game::Role role, QString username, QHash<QString,mafia_game::Role> roles)
+                                                              ^
+20/32 files checked 62% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/gamewindow.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/gamewindow.cpp: QT_CORE_LIB=1;QT_GUI_LIB=1;QT_MULTIMEDIA_LIB=1;QT_NETWORK_LIB=1;QT_NO_DEBUG=1;QT_WIDGETS_LIB=1...
+21/32 files checked 65% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp: QT_CORE_LIB=1;QT_GUI_LIB=1;QT_MULTIMEDIA_LIB=1;QT_NETWORK_LIB=1;QT_NO_DEBUG=1;QT_WIDGETS_LIB=1...
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:160:35: performance: Function parameter 'info' should be passed by const reference. [passedByValue]
+void PlayerIcon::set_info(QString info)
+                                  ^
+22/32 files checked 68% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/main.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/main.cpp: QT_CORE_LIB=1;QT_GUI_LIB=1;QT_MULTIMEDIA_LIB=1;QT_NETWORK_LIB=1;QT_NO_DEBUG=1;QT_WIDGETS_LIB=1...
+23/32 files checked 71% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp: QT_CORE_LIB=1;QT_GUI_LIB=1;QT_MULTIMEDIA_LIB=1;QT_NETWORK_LIB=1;QT_NO_DEBUG=1;QT_WIDGETS_LIB=1...
+24/32 files checked 75% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp: QT_CORE_LIB=1;QT_GUI_LIB=1;QT_MULTIMEDIA_LIB=1;QT_NETWORK_LIB=1;QT_NO_DEBUG=1;QT_WIDGETS_LIB=1...
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:11:67: performance: Function parameter 'username' should be passed by const reference. [passedByValue]
+std::shared_ptr<Player> GameState::get_player_by_username(QString username)
+                                                                  ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:21:41: performance: Function parameter 'username' should be passed by const reference. [passedByValue]
+bool GameState::is_player_alive(QString username)
+                                        ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:30:37: performance: Function parameter 'username' should be passed by const reference. [passedByValue]
+void GameState::kill_player(QString username)
+                                    ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:81:40: performance: Function parameter 'username' should be passed by const reference. [passedByValue]
+bool GameState::can_player_act(QString username){
+                                       ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:95:41: performance: Function parameter 'username' should be passed by const reference. [passedByValue]
+bool GameState::can_player_vote(QString username){
+                                        ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:103:41: performance: Function parameter 'target_username' should be passed by const reference. [passedByValue]
+bool GameState::is_valid_target(QString target_username){
+                                        ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:138:39: performance: Function parameter 'username' should be passed by const reference. [passedByValue]
+bool GameState::player_exists(QString username){
+                                      ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:170:41: performance: Function parameter 'username' should be passed by const reference. [passedByValue]
+bool GameState::can_player_chat(QString username){
+                                        ^
+25/32 files checked 78% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/game/Player.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/game/Player.cpp: QT_CORE_LIB=1;QT_GUI_LIB=1;QT_MULTIMEDIA_LIB=1;QT_NETWORK_LIB=1;QT_NO_DEBUG=1;QT_WIDGETS_LIB=1...
+26/32 files checked 81% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/game/Role.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/game/Role.cpp: QT_CORE_LIB=1;QT_GUI_LIB=1;QT_MULTIMEDIA_LIB=1;QT_NETWORK_LIB=1;QT_NO_DEBUG=1;QT_WIDGETS_LIB=1...
+27/32 files checked 84% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/game/DetectiveRole.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/game/DetectiveRole.cpp: QT_CORE_LIB=1;QT_GUI_LIB=1;QT_MULTIMEDIA_LIB=1;QT_NETWORK_LIB=1;QT_NO_DEBUG=1;QT_WIDGETS_LIB=1...
+28/32 files checked 87% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/game/DoctorRole.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/game/DoctorRole.cpp: QT_CORE_LIB=1;QT_GUI_LIB=1;QT_MULTIMEDIA_LIB=1;QT_NETWORK_LIB=1;QT_NO_DEBUG=1;QT_WIDGETS_LIB=1...
+29/32 files checked 90% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/game/citizenrole.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/game/citizenrole.cpp: QT_CORE_LIB=1;QT_GUI_LIB=1;QT_MULTIMEDIA_LIB=1;QT_NETWORK_LIB=1;QT_NO_DEBUG=1;QT_WIDGETS_LIB=1...
+30/32 files checked 93% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/game/mafiarole.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/game/mafiarole.cpp: QT_CORE_LIB=1;QT_GUI_LIB=1;QT_MULTIMEDIA_LIB=1;QT_NETWORK_LIB=1;QT_NO_DEBUG=1;QT_WIDGETS_LIB=1...
+31/32 files checked 96% done
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/game/gamemanager.cpp ...
+Checking /home/milica/Desktop/2023_Analysis_lexy/Mafija/game/gamemanager.cpp: QT_CORE_LIB=1;QT_GUI_LIB=1;QT_MULTIMEDIA_LIB=1;QT_NETWORK_LIB=1;QT_NO_DEBUG=1;QT_WIDGETS_LIB=1...
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/gamemanager.cpp:18:55: performance: Function parameter 'players_to_kill' should be passed by const reference. [passedByValue]
+void GameManager::on_voting_finished(QVector<QString> players_to_kill){
+                                                      ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/gamemanager.cpp:32:45: performance: Function parameter 'target' should be passed by const reference. [passedByValue]
+void GameManager::on_night_finished(QString target){
+                                            ^
+32/32 files checked 100% done
