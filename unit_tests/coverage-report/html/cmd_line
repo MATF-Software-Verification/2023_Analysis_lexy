@@ -1,0 +1,1 @@
+genhtml /home/milica/Desktop/2023_Analysis_lexy/unit_tests/coverage-report/coverage-filtered.info --output-directory /home/milica/Desktop/2023_Analysis_lexy/unit_tests/coverage-report/html --branch-coverage --title 'Mafija - Catch2 + QTest Coverage'

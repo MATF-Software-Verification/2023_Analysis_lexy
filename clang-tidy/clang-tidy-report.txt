@@ -1,0 +1,2276 @@
+Enabled checks:
+    bugprone-argument-comment
+    bugprone-assert-side-effect
+    bugprone-assignment-in-if-condition
+    bugprone-bad-signal-to-kill-thread
+    bugprone-bitwise-pointer-cast
+    bugprone-bool-pointer-implicit-conversion
+    bugprone-branch-clone
+    bugprone-capturing-this-in-member-variable
+    bugprone-casting-through-void
+    bugprone-chained-comparison
+    bugprone-compare-pointer-to-member-virtual-function
+    bugprone-copy-constructor-init
+    bugprone-crtp-constructor-accessibility
+    bugprone-dangling-handle
+    bugprone-dynamic-static-initializers
+    bugprone-easily-swappable-parameters
+    bugprone-empty-catch
+    bugprone-exception-escape
+    bugprone-fold-init-type
+    bugprone-forward-declaration-namespace
+    bugprone-forwarding-reference-overload
+    bugprone-implicit-widening-of-multiplication-result
+    bugprone-inaccurate-erase
+    bugprone-inc-dec-in-conditions
+    bugprone-incorrect-enable-if
+    bugprone-incorrect-enable-shared-from-this
+    bugprone-incorrect-roundings
+    bugprone-infinite-loop
+    bugprone-integer-division
+    bugprone-lambda-function-name
+    bugprone-macro-parentheses
+    bugprone-macro-repeated-side-effects
+    bugprone-misleading-setter-of-reference
+    bugprone-misplaced-operator-in-strlen-in-alloc
+    bugprone-misplaced-pointer-arithmetic-in-alloc
+    bugprone-misplaced-widening-cast
+    bugprone-move-forwarding-reference
+    bugprone-multi-level-implicit-pointer-conversion
+    bugprone-multiple-new-in-one-expression
+    bugprone-multiple-statement-macro
+    bugprone-narrowing-conversions
+    bugprone-no-escape
+    bugprone-non-zero-enum-to-bool-conversion
+    bugprone-nondeterministic-pointer-iteration-order
+    bugprone-not-null-terminated-result
+    bugprone-optional-value-conversion
+    bugprone-parent-virtual-call
+    bugprone-pointer-arithmetic-on-polymorphic-object
+    bugprone-posix-return
+    bugprone-redundant-branch-condition
+    bugprone-reserved-identifier
+    bugprone-return-const-ref-from-parameter
+    bugprone-shared-ptr-array-mismatch
+    bugprone-signal-handler
+    bugprone-signed-char-misuse
+    bugprone-sizeof-container
+    bugprone-sizeof-expression
+    bugprone-spuriously-wake-up-functions
+    bugprone-standalone-empty
+    bugprone-string-constructor
+    bugprone-string-integer-assignment
+    bugprone-string-literal-with-embedded-nul
+    bugprone-stringview-nullptr
+    bugprone-suspicious-enum-usage
+    bugprone-suspicious-include
+    bugprone-suspicious-memory-comparison
+    bugprone-suspicious-memset-usage
+    bugprone-suspicious-missing-comma
+    bugprone-suspicious-realloc-usage
+    bugprone-suspicious-semicolon
+    bugprone-suspicious-string-compare
+    bugprone-suspicious-stringview-data-usage
+    bugprone-swapped-arguments
+    bugprone-switch-missing-default-case
+    bugprone-tagged-union-member-count
+    bugprone-terminating-continue
+    bugprone-throw-keyword-missing
+    bugprone-too-small-loop-variable
+    bugprone-unchecked-optional-access
+    bugprone-undefined-memory-manipulation
+    bugprone-undelegated-constructor
+    bugprone-unhandled-exception-at-new
+    bugprone-unhandled-self-assignment
+    bugprone-unintended-char-ostream-output
+    bugprone-unique-ptr-array-mismatch
+    bugprone-unsafe-functions
+    bugprone-unused-local-non-trivial-variable
+    bugprone-unused-raii
+    bugprone-unused-return-value
+    bugprone-use-after-move
+    bugprone-virtual-near-miss
+    clang-analyzer-apiModeling.Errno
+    clang-analyzer-apiModeling.TrustNonnull
+    clang-analyzer-apiModeling.TrustReturnsNonnull
+    clang-analyzer-apiModeling.google.GTest
+    clang-analyzer-apiModeling.llvm.CastValue
+    clang-analyzer-apiModeling.llvm.ReturnValue
+    clang-analyzer-core.BitwiseShift
+    clang-analyzer-core.CallAndMessage
+    clang-analyzer-core.CallAndMessageModeling
+    clang-analyzer-core.DereferenceModeling
+    clang-analyzer-core.DivideZero
+    clang-analyzer-core.DynamicTypePropagation
+    clang-analyzer-core.FixedAddressDereference
+    clang-analyzer-core.NonNullParamChecker
+    clang-analyzer-core.NonnilStringConstants
+    clang-analyzer-core.NullDereference
+    clang-analyzer-core.StackAddrEscapeBase
+    clang-analyzer-core.StackAddressEscape
+    clang-analyzer-core.UndefinedBinaryOperatorResult
+    clang-analyzer-core.VLASize
+    clang-analyzer-core.builtin.AssumeModeling
+    clang-analyzer-core.builtin.BuiltinFunctions
+    clang-analyzer-core.builtin.NoReturnFunctions
+    clang-analyzer-core.uninitialized.ArraySubscript
+    clang-analyzer-core.uninitialized.Assign
+    clang-analyzer-core.uninitialized.Branch
+    clang-analyzer-core.uninitialized.CapturedBlockVariable
+    clang-analyzer-core.uninitialized.NewArraySize
+    clang-analyzer-core.uninitialized.UndefReturn
+    clang-analyzer-cplusplus.ArrayDelete
+    clang-analyzer-cplusplus.InnerPointer
+    clang-analyzer-cplusplus.Move
+    clang-analyzer-cplusplus.NewDelete
+    clang-analyzer-cplusplus.NewDeleteLeaks
+    clang-analyzer-cplusplus.PlacementNew
+    clang-analyzer-cplusplus.PureVirtualCall
+    clang-analyzer-cplusplus.SelfAssignment
+    clang-analyzer-cplusplus.SmartPtrModeling
+    clang-analyzer-cplusplus.StringChecker
+    clang-analyzer-deadcode.DeadStores
+    clang-analyzer-fuchsia.HandleChecker
+    clang-analyzer-nullability.NullPassedToNonnull
+    clang-analyzer-nullability.NullReturnedFromNonnull
+    clang-analyzer-nullability.NullableDereferenced
+    clang-analyzer-nullability.NullablePassedToNonnull
+    clang-analyzer-nullability.NullableReturnedFromNonnull
+    clang-analyzer-optin.core.EnumCastOutOfRange
+    clang-analyzer-optin.cplusplus.UninitializedObject
+    clang-analyzer-optin.cplusplus.VirtualCall
+    clang-analyzer-optin.mpi.MPI-Checker
+    clang-analyzer-optin.osx.OSObjectCStyleCast
+    clang-analyzer-optin.osx.cocoa.localizability.EmptyLocalizationContextChecker
+    clang-analyzer-optin.osx.cocoa.localizability.NonLocalizedStringChecker
+    clang-analyzer-optin.performance.GCDAntipattern
+    clang-analyzer-optin.performance.Padding
+    clang-analyzer-optin.portability.UnixAPI
+    clang-analyzer-optin.taint.GenericTaint
+    clang-analyzer-optin.taint.TaintPropagation
+    clang-analyzer-optin.taint.TaintedAlloc
+    clang-analyzer-optin.taint.TaintedDiv
+    clang-analyzer-osx.API
+    clang-analyzer-osx.MIG
+    clang-analyzer-osx.NSOrCFErrorDerefChecker
+    clang-analyzer-osx.NumberObjectConversion
+    clang-analyzer-osx.OSObjectRetainCount
+    clang-analyzer-osx.ObjCProperty
+    clang-analyzer-osx.SecKeychainAPI
+    clang-analyzer-osx.cocoa.AtSync
+    clang-analyzer-osx.cocoa.AutoreleaseWrite
+    clang-analyzer-osx.cocoa.ClassRelease
+    clang-analyzer-osx.cocoa.Dealloc
+    clang-analyzer-osx.cocoa.IncompatibleMethodTypes
+    clang-analyzer-osx.cocoa.Loops
+    clang-analyzer-osx.cocoa.MissingSuperCall
+    clang-analyzer-osx.cocoa.NSAutoreleasePool
+    clang-analyzer-osx.cocoa.NSError
+    clang-analyzer-osx.cocoa.NilArg
+    clang-analyzer-osx.cocoa.NonNilReturnValue
+    clang-analyzer-osx.cocoa.ObjCGenerics
+    clang-analyzer-osx.cocoa.RetainCount
+    clang-analyzer-osx.cocoa.RetainCountBase
+    clang-analyzer-osx.cocoa.RunLoopAutoreleaseLeak
+    clang-analyzer-osx.cocoa.SelfInit
+    clang-analyzer-osx.cocoa.SuperDealloc
+    clang-analyzer-osx.cocoa.UnusedIvars
+    clang-analyzer-osx.cocoa.VariadicMethodTypes
+    clang-analyzer-osx.coreFoundation.CFError
+    clang-analyzer-osx.coreFoundation.CFNumber
+    clang-analyzer-osx.coreFoundation.CFRetainRelease
+    clang-analyzer-osx.coreFoundation.containers.OutOfBounds
+    clang-analyzer-osx.coreFoundation.containers.PointerSizedValues
+    clang-analyzer-security.ArrayBound
+    clang-analyzer-security.FloatLoopCounter
+    clang-analyzer-security.MmapWriteExec
+    clang-analyzer-security.PointerSub
+    clang-analyzer-security.PutenvStackArray
+    clang-analyzer-security.SetgidSetuidOrder
+    clang-analyzer-security.cert.env.InvalidPtr
+    clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling
+    clang-analyzer-security.insecureAPI.SecuritySyntaxChecker
+    clang-analyzer-security.insecureAPI.UncheckedReturn
+    clang-analyzer-security.insecureAPI.bcmp
+    clang-analyzer-security.insecureAPI.bcopy
+    clang-analyzer-security.insecureAPI.bzero
+    clang-analyzer-security.insecureAPI.decodeValueOfObjCType
+    clang-analyzer-security.insecureAPI.getpw
+    clang-analyzer-security.insecureAPI.gets
+    clang-analyzer-security.insecureAPI.mkstemp
+    clang-analyzer-security.insecureAPI.mktemp
+    clang-analyzer-security.insecureAPI.rand
+    clang-analyzer-security.insecureAPI.strcpy
+    clang-analyzer-security.insecureAPI.vfork
+    clang-analyzer-unix.API
+    clang-analyzer-unix.BlockInCriticalSection
+    clang-analyzer-unix.Chroot
+    clang-analyzer-unix.DynamicMemoryModeling
+    clang-analyzer-unix.Errno
+    clang-analyzer-unix.Malloc
+    clang-analyzer-unix.MallocSizeof
+    clang-analyzer-unix.MismatchedDeallocator
+    clang-analyzer-unix.StdCLibraryFunctions
+    clang-analyzer-unix.Stream
+    clang-analyzer-unix.Vfork
+    clang-analyzer-unix.cstring.BadSizeArg
+    clang-analyzer-unix.cstring.CStringModeling
+    clang-analyzer-unix.cstring.NotNullTerminated
+    clang-analyzer-unix.cstring.NullArg
+    clang-analyzer-valist.CopyToSelf
+    clang-analyzer-valist.Uninitialized
+    clang-analyzer-valist.Unterminated
+    clang-analyzer-valist.ValistBase
+    clang-analyzer-webkit.NoUncountedMemberChecker
+    clang-analyzer-webkit.RefCntblBaseVirtualDtor
+    clang-analyzer-webkit.UncountedLambdaCapturesChecker
+    modernize-avoid-bind
+    modernize-avoid-c-arrays
+    modernize-concat-nested-namespaces
+    modernize-deprecated-headers
+    modernize-deprecated-ios-base-aliases
+    modernize-loop-convert
+    modernize-macro-to-enum
+    modernize-make-shared
+    modernize-make-unique
+    modernize-min-max-use-initializer-list
+    modernize-pass-by-value
+    modernize-raw-string-literal
+    modernize-redundant-void-arg
+    modernize-replace-auto-ptr
+    modernize-replace-disallow-copy-and-assign-macro
+    modernize-replace-random-shuffle
+    modernize-return-braced-init-list
+    modernize-shrink-to-fit
+    modernize-type-traits
+    modernize-unary-static-assert
+    modernize-use-auto
+    modernize-use-bool-literals
+    modernize-use-constraints
+    modernize-use-default-member-init
+    modernize-use-designated-initializers
+    modernize-use-emplace
+    modernize-use-equals-default
+    modernize-use-equals-delete
+    modernize-use-integer-sign-comparison
+    modernize-use-nodiscard
+    modernize-use-noexcept
+    modernize-use-nullptr
+    modernize-use-override
+    modernize-use-ranges
+    modernize-use-scoped-lock
+    modernize-use-starts-ends-with
+    modernize-use-std-format
+    modernize-use-std-numbers
+    modernize-use-std-print
+    modernize-use-trailing-return-type
+    modernize-use-transparent-functors
+    modernize-use-uncaught-exceptions
+    modernize-use-using
+    performance-avoid-endl
+    performance-enum-size
+    performance-faster-string-find
+    performance-for-range-copy
+    performance-implicit-conversion-in-loop
+    performance-inefficient-algorithm
+    performance-inefficient-string-concatenation
+    performance-inefficient-vector-operation
+    performance-move-const-arg
+    performance-move-constructor-init
+    performance-no-automatic-move
+    performance-no-int-to-ptr
+    performance-noexcept-destructor
+    performance-noexcept-move-constructor
+    performance-noexcept-swap
+    performance-trivially-destructible
+    performance-type-promotion-in-math-fn
+    performance-unnecessary-copy-initialization
+    performance-unnecessary-value-param
+    readability-ambiguous-smartptr-reset-call
+    readability-avoid-const-params-in-decls
+    readability-avoid-nested-conditional-operator
+    readability-avoid-return-with-void-value
+    readability-avoid-unconditional-preprocessor-if
+    readability-braces-around-statements
+    readability-const-return-type
+    readability-container-contains
+    readability-container-data-pointer
+    readability-container-size-empty
+    readability-convert-member-functions-to-static
+    readability-delete-null-pointer
+    readability-duplicate-include
+    readability-else-after-return
+    readability-enum-initial-value
+    readability-function-cognitive-complexity
+    readability-function-size
+    readability-identifier-length
+    readability-identifier-naming
+    readability-implicit-bool-conversion
+    readability-inconsistent-declaration-parameter-name
+    readability-isolate-declaration
+    readability-magic-numbers
+    readability-make-member-function-const
+    readability-math-missing-parentheses
+    readability-misleading-indentation
+    readability-misplaced-array-index
+    readability-named-parameter
+    readability-non-const-parameter
+    readability-operators-representation
+    readability-qualified-auto
+    readability-redundant-access-specifiers
+    readability-redundant-casting
+    readability-redundant-control-flow
+    readability-redundant-declaration
+    readability-redundant-function-ptr-dereference
+    readability-redundant-inline-specifier
+    readability-redundant-member-init
+    readability-redundant-preprocessor
+    readability-redundant-smartptr-get
+    readability-redundant-string-cstr
+    readability-redundant-string-init
+    readability-reference-to-constructed-temporary
+    readability-simplify-boolean-expr
+    readability-simplify-subscript-expr
+    readability-static-accessed-through-instance
+    readability-static-definition-in-anonymous-namespace
+    readability-string-compare
+    readability-suspicious-call-argument
+    readability-uniqueptr-delete-release
+    readability-uppercase-literal-suffix
+    readability-use-anyofallof
+    readability-use-concise-preprocessor-directives
+    readability-use-std-min-max
+
+Running clang-tidy for 31 files out of 31 in compilation database ...
+[ 1/31][16.4s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/game/DoctorRole.cpp
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/DoctorRole.cpp:3:42: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+    3 | night_abilities::NightAction DoctorRole::get_night_action(QString target) const{
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~             ^                                     
+      | auto                                                                            -> night_abilities::NightAction
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/DoctorRole.cpp:5:16: warning: avoid repeating the return type from the declaration; use a braced initializer list instead [modernize-return-braced-init-list]
+    5 |         return night_abilities::NightAction(night_abilities::NightActionTypes::NOTHING,"");
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                             ~
+      |                {                                                                         }
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/DoctorRole.cpp:7:5: warning: do not use 'else' after 'return' [readability-else-after-return]
+    7 |     else{
+      |     ^~~~~
+    8 |        return night_abilities::NightAction(night_abilities::NightActionTypes::SHIELD_PLAYER,target);
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    9 |     }
+      |     ~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/DoctorRole.cpp:8:15: warning: avoid repeating the return type from the declaration; use a braced initializer list instead [modernize-return-braced-init-list]
+    8 |        return night_abilities::NightAction(night_abilities::NightActionTypes::SHIELD_PLAYER,target);
+      |               ^
+note: this fix will not be applied because it overlaps with another fix
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/DoctorRole.cpp:12:18: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   12 | bool DoctorRole::has_night_action() const{
+      | ~~~~             ^                       
+      | auto                                      -> bool
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/DoctorRole.cpp:16:21: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   16 | QString DoctorRole::get_role_name() const{
+      | ~~~~~~~             ^                    
+      | auto                                      -> QString
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/DoctorRole.cpp:20:22: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   20 | RoleType DoctorRole::get_type() const{
+      | ~~~~~~~~             ^               
+      | auto                                  -> RoleType
+68062 warnings generated.
+Suppressed 68055 warnings (68055 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[ 2/31][16.6s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/game/mafiarole.cpp
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/mafiarole.cpp:3:41: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+    3 | night_abilities::NightAction MafiaRole::get_night_action(QString target) const{
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~            ^                                     
+      | auto                                                                           -> night_abilities::NightAction
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/mafiarole.cpp:4:21: warning: statement should be inside braces [readability-braces-around-statements]
+    4 |     if(target == "")
+      |                     ^
+      |                      {
+    5 |         return night_abilities::NightAction(night_abilities::NightActionTypes::NOTHING, "");
+      |                                                                                             
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/mafiarole.cpp:5:16: warning: avoid repeating the return type from the declaration; use a braced initializer list instead [modernize-return-braced-init-list]
+    5 |         return night_abilities::NightAction(night_abilities::NightActionTypes::NOTHING, "");
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                              ~
+      |                {                                                                          }
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/mafiarole.cpp:6:12: warning: avoid repeating the return type from the declaration; use a braced initializer list instead [modernize-return-braced-init-list]
+    6 |     return night_abilities::NightAction(night_abilities::NightActionTypes::KILL_PLAYER, target);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                      ~
+      |            {                                                                                  }
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/mafiarole.cpp:9:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+    9 | bool MafiaRole::has_night_action() const{
+      | ~~~~            ^                       
+      | auto                                     -> bool
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/mafiarole.cpp:13:20: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   13 | QString MafiaRole::get_role_name() const{
+      | ~~~~~~~            ^                    
+      | auto                                     -> QString
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/mafiarole.cpp:17:21: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   17 | RoleType MafiaRole::get_type() const{
+      | ~~~~~~~~            ^               
+      | auto                                 -> RoleType
+68062 warnings generated.
+Suppressed 68055 warnings (68055 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[ 3/31][16.8s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/game/citizenrole.cpp
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/citizenrole.cpp:3:43: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+    3 | night_abilities::NightAction CitizenRole::get_night_action(QString target) const{
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~              ^                                     
+      | auto                                                                             -> night_abilities::NightAction
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/citizenrole.cpp:4:12: warning: avoid repeating the return type from the declaration; use a braced initializer list instead [modernize-return-braced-init-list]
+    4 |     return night_abilities::NightAction(night_abilities::NightActionTypes::NOTHING,"");
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                             ~
+      |            {                                                                         }
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/citizenrole.cpp:7:19: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+    7 | bool CitizenRole::has_night_action() const{
+      | ~~~~              ^                       
+      | auto                                       -> bool
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/citizenrole.cpp:11:22: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   11 | QString CitizenRole::get_role_name() const{
+      | ~~~~~~~              ^                    
+      | auto                                       -> QString
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/citizenrole.cpp:15:23: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   15 | RoleType CitizenRole::get_type() const{
+      | ~~~~~~~~              ^               
+      | auto                                   -> RoleType
+68045 warnings generated.
+Suppressed 68040 warnings (68040 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[ 4/31][24.2s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/game/Player.cpp
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/Player.cpp:4:16: warning: pass by value and use std::move [modernize-pass-by-value]
+    3 | 
+    4 | Player::Player(const QString& username,Role* role, QObject* parent)
+      |                ^~~~~~~~~~~~~~
+      |                QString 
+    5 |     : QObject(parent),m_username(username),m_role(role),m_alive(false){}
+      |                                          
+      |                                  std::move( )
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/Player.cpp:5:57: warning: member initializer for 'm_alive' is redundant [modernize-use-default-member-init]
+    5 |     : QObject(parent),m_username(username),m_role(role),m_alive(false){}
+      |                                                         ^~~~~~~~~~~~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/Player.cpp:7:15: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+    7 | Role* Player::get_role() const {
+      | ~~~~~         ^
+      | auto                           -> Role*
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/Player.cpp:16:24: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   16 | const QString& Player::get_name() const {
+      | ~~~~~~~~~~~~~~         ^
+      | auto                                    -> const QString&
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/Player.cpp:26:14: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   26 | bool Player::has_role() const
+      | ~~~~         ^               
+      | auto                          -> bool
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/Player.cpp:35:14: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   35 | bool Player::is_mafia() const {
+      | ~~~~         ^
+      | auto                          -> bool
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/Player.cpp:36:12: warning: implicit conversion 'Role *' -> 'bool' [readability-implicit-bool-conversion]
+   36 |     return m_role && m_role->get_type() == RoleType::Mafia;
+      |            ^
+      |            (      != nullptr)
+74268 warnings generated.
+Suppressed 74261 warnings (74261 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[ 5/31][27.0s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/voiceprotocol.cpp
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/voiceprotocol.cpp:6:18: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+    6 | VoiceMessageType voice_type_from_string(const QString& str) {
+      | ~~~~~~~~~~~~~~~~ ^
+      | auto                                                        -> VoiceMessageType
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/voiceprotocol.cpp:7:28: warning: statement should be inside braces [readability-braces-around-statements]
+    7 |     if (str == "VoiceData") return VoiceMessageType::VoiceData;
+      |                            ^                                   
+      |                             {
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/voiceprotocol.cpp:8:31: warning: statement should be inside braces [readability-braces-around-statements]
+    8 |     if (str == "VoiceRequest") return VoiceMessageType::VoiceRequest;
+      |                               ^                                      
+      |                                {
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/voiceprotocol.cpp:9:28: warning: statement should be inside braces [readability-braces-around-statements]
+    9 |     if (str == "VoiceStop") return VoiceMessageType::VoiceStop;
+      |                            ^                                   
+      |                             {
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/voiceprotocol.cpp:10:29: warning: statement should be inside braces [readability-braces-around-statements]
+   10 |     if (str == "MuteToggle") return VoiceMessageType::MuteToggle;
+      |                             ^                                    
+      |                              {
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/voiceprotocol.cpp:11:31: warning: statement should be inside braces [readability-braces-around-statements]
+   11 |     if (str == "DeafenToggle") return VoiceMessageType::DeafenToggle;
+      |                               ^                                      
+      |                                {
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/voiceprotocol.cpp:15:9: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   15 | QString voice_type_to_string(VoiceMessageType type) {
+      | ~~~~~~~ ^
+      | auto                                                -> QString
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/voiceprotocol.cpp:26:13: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   26 | QJsonObject create_voice_data_message(
+      | ~~~~~~~~~~~ ^
+      | auto
+   27 |     const QString& sender,
+   28 |     const QByteArray& audioData,
+   29 |     qint64 timestamp,
+   30 |     quint32 sequence)
+      |                      
+      |                       -> QJsonObject
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/voiceprotocol.cpp:29:5: warning: 2 adjacent parameters of 'create_voice_data_message' of convertible types are easily swapped by mistake [bugprone-easily-swappable-parameters]
+   29 |     qint64 timestamp,
+      |     ^~~~~~~~~~~~~~~~~
+   30 |     quint32 sequence)
+      |     ~~~~~~~~~~~~~~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/voiceprotocol.cpp:29:12: note: the first parameter in the range is 'timestamp'
+   29 |     qint64 timestamp,
+      |            ^~~~~~~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/voiceprotocol.cpp:30:13: note: the last parameter in the range is 'sequence'
+   30 |     quint32 sequence)
+      |             ^~~~~~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/voiceprotocol.cpp:29:5: note: 
+   29 |     qint64 timestamp,
+      |     ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/voiceprotocol.cpp:30:5: note: 'qint64' and 'quint32' may be implicitly converted: 'qint64' (as 'long long') -> 'quint32' (as 'unsigned int'), 'quint32' (as 'unsigned int') -> 'qint64' (as 'long long')
+   30 |     quint32 sequence)
+      |     ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/voiceprotocol.cpp:41:13: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   41 | QJsonObject create_voice_request_message(const QString& sender) {
+      | ~~~~~~~~~~~ ^
+      | auto                                                            -> QJsonObject
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/voiceprotocol.cpp:48:13: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   48 | QJsonObject create_voice_stop_message(const QString& sender) {
+      | ~~~~~~~~~~~ ^
+      | auto                                                         -> QJsonObject
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/voiceprotocol.cpp:55:13: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   55 | QJsonObject create_mute_toggle_message(const QString& sender, bool muted) {
+      | ~~~~~~~~~~~ ^
+      | auto                                                                      -> QJsonObject
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/voiceprotocol.cpp:63:13: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   63 | QJsonObject create_deafen_toggle_message(const QString& sender, bool deafened) {
+      | ~~~~~~~~~~~ ^
+      | auto                                                                           -> QJsonObject
+80114 warnings generated.
+Suppressed 80101 warnings (80101 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[ 6/31][28.2s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/voiceserver.cpp
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/voiceserver.cpp:26:9: warning: implicit conversion 'size_type' (aka 'long long') -> 'bool' [readability-implicit-bool-conversion]
+   26 |     if (m_voice_clients.remove(username)) {
+      |         ^                               
+      |                                          != 0
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/voiceserver.cpp:81:13: warning: implicit conversion 'ServerWorker *' -> 'bool' [readability-implicit-bool-conversion]
+   81 |         if (state.worker) {
+      |             ^           
+      |                          != nullptr
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/voiceserver.cpp:93:19: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   93 | bool VoiceServer::is_client_muted(const QString& username) const
+      | ~~~~              ^                                             
+      | auto                                                             -> bool
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/voiceserver.cpp:101:19: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  101 | bool VoiceServer::is_client_deafened(const QString& username) const
+      | ~~~~              ^                                                
+      | auto                                                                -> bool
+82010 warnings generated.
+Suppressed 82006 warnings (82006 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[ 7/31][29.3s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/joingamewindow.cpp
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/joingamewindow.cpp:26:9: warning: implicit conversion 'ChatClient *' -> 'bool' [readability-implicit-bool-conversion]
+   26 |     if(!m_client)
+      |        ~^       
+      |                  == nullptr
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/joingamewindow.cpp:26:18: warning: statement should be inside braces [readability-braces-around-statements]
+   26 |     if(!m_client)
+      |                  ^
+      |                   {
+   27 |         return;
+      |                
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/joingamewindow.cpp:28:13: warning: variable name 'ip' is too short, expected at least 3 characters [readability-identifier-length]
+   28 |     QString ip = ui->lineEdit->text();
+      |             ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/joingamewindow.cpp:29:21: warning: statement should be inside braces [readability-braces-around-statements]
+   29 |     if(ip.isEmpty())
+      |                     ^
+      |                      {
+   30 |         return;
+      |                
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/joingamewindow.cpp:48:25: warning: implicit conversion 'QString *' -> 'bool' [readability-implicit-bool-conversion]
+   48 |     dialog.setTextValue(m_last_username ? *m_last_username : "");
+      |                         ^
+      |                         (               != nullptr)
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/joingamewindow.cpp:74:5: warning: use auto when initializing with a template cast to avoid duplicating the type name [modernize-use-auto]
+   74 |     QLineEdit *lineEdit = dialog.findChild<QLineEdit *>();
+      |     ^~~~~~~~~
+      |     auto
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/joingamewindow.cpp:75:9: warning: implicit conversion 'QLineEdit *' -> 'bool' [readability-implicit-bool-conversion]
+   75 |     if (lineEdit) {
+      |         ^       
+      |                  != nullptr
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/joingamewindow.cpp:76:32: warning: 20 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   76 |         lineEdit->setMaxLength(20);
+      |                                ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/joingamewindow.cpp:89:8: warning: implicit conversion 'QString *' -> 'bool' [readability-implicit-bool-conversion]
+   89 |     if(m_last_username){
+      |        ^              
+      |                        != nullptr
+97328 warnings generated.
+Suppressed 97319 warnings (97319 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[ 8/31][30.8s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:3:52: warning: the parameter 'player' is copied for each invocation but only used as a const reference; consider making it a const reference [performance-unnecessary-value-param]
+    3 | void GameState::add_player(std::shared_ptr<Player> player)
+      |                                                    ^
+      |                            const                  &
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:11:36: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   11 | std::shared_ptr<Player> GameState::get_player_by_username(QString username)
+      | ~~~~~~~~~~~~~~~~~~~~~~~            ^                                       
+      | auto                                                                        -> std::shared_ptr<Player>
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:11:67: warning: the parameter 'username' is copied for each invocation but only used as a const reference; consider making it a const reference [performance-unnecessary-value-param]
+   11 | std::shared_ptr<Player> GameState::get_player_by_username(QString username)
+      |                                                                   ^
+      |                                                           const  &
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:21:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   21 | bool GameState::is_player_alive(QString username)
+      | ~~~~            ^                                
+      | auto                                              -> bool
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:23:42: warning: parameter 'username' is passed by value and only copied once; consider moving it to avoid unnecessary copies [performance-unnecessary-value-param]
+    2 |     auto player = get_player_by_username(username);
+      |                                          ^       
+      |                                          std::move( )
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:32:42: warning: parameter 'username' is passed by value and only copied once; consider moving it to avoid unnecessary copies [performance-unnecessary-value-param]
+   32 |     auto player = get_player_by_username(username);
+      |                                          ^       
+      |                                          std::move( )
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:39:49: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   39 | std::vector<std::shared_ptr<Player>> GameState::get_alive_players(){
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~            ^                  
+      | auto                                                                -> std::vector<std::shared_ptr<Player>>
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:41:15: warning: variable name 'p' is too short, expected at least 3 characters [readability-identifier-length]
+   41 |     for(auto& p : m_players){
+      |               ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:49:29: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   49 | QVector<QString> GameState::get_alive_players_names(){
+      | ~~~~~~~~~~~~~~~~            ^                        
+      | auto                                                  -> QVector<QString>
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:52:22: warning: variable name 'x' is too short, expected at least 3 characters [readability-identifier-length]
+   52 |     for (const auto &x:plrs)
+      |                      ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:52:29: warning: statement should be inside braces [readability-braces-around-statements]
+   52 |     for (const auto &x:plrs)
+      |                             ^
+      |                              {
+   53 |         alive.push_back(x->get_name());
+      |                                        
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:57:16: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   57 | int GameState::get_alive_player_count(){
+      | ~~~            ^                       
+      | auto                                    -> int
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:61:16: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   61 | int GameState::get_alive_mafia_count(){
+      | ~~~            ^                      
+      | auto                                   -> int
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:63:15: warning: variable name 'p' is too short, expected at least 3 characters [readability-identifier-length]
+   63 |     for(auto& p : get_alive_players()){
+      |               ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:71:16: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   71 | int GameState::get_alive_citizen_count(){
+      | ~~~            ^                        
+      | auto                                     -> int
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:73:15: warning: variable name 'p' is too short, expected at least 3 characters [readability-identifier-length]
+   73 |     for(auto& p : get_alive_players()){
+      |               ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:81:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   81 | bool GameState::can_player_act(QString username){
+      | ~~~~            ^                               
+      | auto                                             -> bool
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:82:42: warning: parameter 'username' is passed by value and only copied once; consider moving it to avoid unnecessary copies [performance-unnecessary-value-param]
+   82 |     auto player = get_player_by_username(username);
+      |                                          ^       
+      |                                          std::move( )
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:88:10: warning: implicit conversion 'Role *' -> 'bool' [readability-implicit-bool-conversion]
+   88 |     if (!role){
+      |         ~^   
+      |               == nullptr
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:95:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   95 | bool GameState::can_player_vote(QString username){
+      | ~~~~            ^                                
+      | auto                                              -> bool
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:99:42: warning: parameter 'username' is passed by value and only copied once; consider moving it to avoid unnecessary copies [performance-unnecessary-value-param]
+   99 |     auto player = get_player_by_username(username);
+      |                                          ^       
+      |                                          std::move( )
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:103:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  103 | bool GameState::is_valid_target(QString target_username){
+      | ~~~~            ^                                       
+      | auto                                                     -> bool
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:104:42: warning: parameter 'target_username' is passed by value and only copied once; consider moving it to avoid unnecessary copies [performance-unnecessary-value-param]
+  104 |     auto player = get_player_by_username(target_username);
+      |                                          ^              
+      |                                          std::move(     )
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:108:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  108 | bool GameState::is_voting_time()
+      | ~~~~            ^               
+      | auto                             -> bool
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:108:17: warning: method 'is_voting_time' can be made static [readability-convert-member-functions-to-static]
+  108 | bool GameState::is_voting_time()
+      |                 ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:113:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  113 | bool GameState::is_night()
+      | ~~~~            ^         
+      | auto                       -> bool
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:113:17: warning: method 'is_night' can be made static [readability-convert-member-functions-to-static]
+  113 | bool GameState::is_night()
+      |                 ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:119:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  119 | bool GameState::check_game_over() {
+      | ~~~~            ^
+      | auto                              -> bool
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:126:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  126 | bool GameState::is_game_over(){
+      | ~~~~            ^             
+      | auto                           -> bool
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:130:20: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  130 | QString GameState::get_winner(){
+      | ~~~~~~~            ^           
+      | auto                            -> QString
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:138:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  138 | bool GameState::player_exists(QString username){
+      | ~~~~            ^                              
+      | auto                                            -> bool
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:139:35: warning: parameter 'username' is passed by value and only copied once; consider moving it to avoid unnecessary copies [performance-unnecessary-value-param]
+  139 |     return get_player_by_username(username) != nullptr;
+      |                                   ^       
+      |                                   std::move( )
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:142:20: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  142 | QString GameState::get_phase_description() const
+      | ~~~~~~~            ^                            
+      | auto                                             -> QString
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:142:20: warning: method 'get_phase_description' can be made static [readability-convert-member-functions-to-static]
+  142 | QString GameState::get_phase_description() const
+      |                    ^                       ~~~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:157:27: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  157 | ChatPermission GameState::get_chat_permission(){
+      | ~~~~~~~~~~~~~~            ^                    
+      | auto                                            -> ChatPermission
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:170:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  170 | bool GameState::can_player_chat(QString username){
+      | ~~~~            ^                                
+      | auto                                              -> bool
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:170:41: warning: the parameter 'username' is copied for each invocation but only used as a const reference; consider making it a const reference [performance-unnecessary-value-param]
+  170 | bool GameState::can_player_chat(QString username){
+      |                                         ^
+      |                                 const  &
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:194:24: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  194 | PlayerState GameState::player_to_player_state(const std::shared_ptr<Player>& player) const{
+      | ~~~~~~~~~~~            ^                                                                  
+      | auto                                                                                       -> PlayerState
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/GameState.cpp:194:24: warning: method 'player_to_player_state' can be made static [readability-convert-member-functions-to-static]
+  194 | PlayerState GameState::player_to_player_state(const std::shared_ptr<Player>& player) const{
+      |                        ^                                                             ~~~~~
+88210 warnings generated.
+Suppressed 88171 warnings (88171 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[ 9/31][33.0s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/voicechatwidget.cpp
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/voicechatwidget.cpp:39:9: warning: implicit conversion 'ChatClient *' -> 'bool' [readability-implicit-bool-conversion]
+   39 |     if (m_chat_client) {
+      |         ^            
+      |                       != nullptr
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/voicechatwidget.cpp:48:10: warning: implicit conversion 'ChatClient *' -> 'bool' [readability-implicit-bool-conversion]
+   48 |     if (!m_chat_client) {
+      |         ~^            
+      |                        == nullptr
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/voicechatwidget.cpp:59:10: warning: implicit conversion 'ChatClient *' -> 'bool' [readability-implicit-bool-conversion]
+   59 |     if (!m_chat_client) {
+      |         ~^            
+      |                        == nullptr
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/voicechatwidget.cpp:69:10: warning: implicit conversion 'ChatClient *' -> 'bool' [readability-implicit-bool-conversion]
+   69 |     if (!m_chat_client) {
+      |         ~^            
+      |                        == nullptr
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/voicechatwidget.cpp:93:10: warning: implicit conversion 'ChatClient *' -> 'bool' [readability-implicit-bool-conversion]
+   93 |     if (!m_chat_client) {
+      |         ~^            
+      |                        == nullptr
+91804 warnings generated.
+Suppressed 91799 warnings (91799 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[10/31][34.8s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/settingswindow.cpp
+95485 warnings generated.
+Suppressed 95485 warnings (95485 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[11/31][25.0s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/serverworker.cpp
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/serverworker.cpp:20:20: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   20 | bool ServerWorker::set_socket_descriptor(qintptr socketDescriptor)
+      | ~~~~               ^                                              
+      | auto                                                               -> bool
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/serverworker.cpp:39:23: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   39 | QString ServerWorker::get_username() const
+      | ~~~~~~~               ^                   
+      | auto                                       -> QString
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/serverworker.cpp:62:40: warning: statement should be inside braces [readability-braces-around-statements]
+   62 |                 if (jsonDoc.isObject())
+      |                                        ^
+      |                                         {
+   63 |                     emit json_received(jsonDoc.object());
+   64 |                 else
+      |                 } 
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/serverworker.cpp:64:21: warning: statement should be inside braces [readability-braces-around-statements]
+   64 |                 else
+      |                     ^
+      |                      {
+   65 |                     emit log_message(QLatin1String("Nepravilna poruka: ") + QString::fromUtf8(jsonData));
+      |                                                                                                          
+81224 warnings generated.
+Suppressed 81220 warnings (81220 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[12/31][25.2s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:6:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+    6 |     MessageType message_type_from_string(const QString& str){
+      |     ~~~~~~~~~~~ ^                                           
+      |     auto                                                     -> MessageType
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:7:74: warning: statement should be inside braces [readability-braces-around-statements]
+    7 |         if (str.compare(QLatin1String("login"),Qt::CaseInsensitive) == 0)
+      |                                                                          ^
+      |                                                                           {
+    8 |             return MessageType::Login;
+      |                                       
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:9:76: warning: statement should be inside braces [readability-braces-around-statements]
+    9 |         if (str.compare(QLatin1String("message"),Qt::CaseInsensitive) == 0)
+      |                                                                            ^
+      |                                                                             {
+   10 |             return MessageType::Message;
+      |                                         
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:11:87: warning: statement should be inside braces [readability-braces-around-statements]
+   11 |         if(str.compare(QLatin1String("waiting_room_lists"), Qt::CaseInsensitive) == 0)
+      |                                                                                       ^
+      |                                                                                        {
+   12 |             return MessageType::WaitingRoomLists;
+      |                                                  
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:13:85: warning: statement should be inside braces [readability-braces-around-statements]
+   13 |         if(str.compare(QLatin1String("player_selection"), Qt::CaseInsensitive) == 0)
+      |                                                                                     ^
+      |                                                                                      {
+   14 |             return MessageType::PlayerSelection;
+      |                                                 
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:15:82: warning: statement should be inside braces [readability-braces-around-statements]
+   15 |         if(str.compare(QLatin1String("request_lists"), Qt::CaseInsensitive) == 0)
+      |                                                                                  ^
+      |                                                                                   {
+   16 |             return MessageType::RequestLists;
+      |                                              
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:17:86: warning: statement should be inside braces [readability-braces-around-statements]
+   17 |         if (str.compare(QLatin1String("game_state_update"),Qt::CaseInsensitive) == 0)
+      |                                                                                      ^
+      |                                                                                       {
+   18 |             return MessageType::GameStateUpdate;
+      |                                                 
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:19:78: warning: statement should be inside braces [readability-braces-around-statements]
+   19 |         if (str.compare(QLatin1String("join_game"),Qt::CaseInsensitive) == 0)
+      |                                                                              ^
+      |                                                                               {
+   20 |             return MessageType::JoinGame;
+      |                                          
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:21:79: warning: statement should be inside braces [readability-braces-around-statements]
+   21 |         if (str.compare(QLatin1String("leave_game"),Qt::CaseInsensitive) == 0)
+      |                                                                               ^
+      |                                                                                {
+   22 |             return MessageType::LeaveGame;
+      |                                           
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:23:81: warning: statement should be inside braces [readability-braces-around-statements]
+   23 |         if (str.compare(QLatin1String("night_action"),Qt::CaseInsensitive) == 0)
+      |                                                                                 ^
+      |                                                                                  {
+   24 |             return MessageType::NightAction;
+      |                                             
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:25:72: warning: statement should be inside braces [readability-braces-around-statements]
+   25 |         if (str.compare(QLatin1String("vote"),Qt::CaseInsensitive) ==0)
+      |                                                                        ^
+      |                                                                         {
+   26 |             return MessageType::Vote;
+      |                                      
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:27:74: warning: statement should be inside braces [readability-braces-around-statements]
+   27 |         if (str.compare(QLatin1String("newuser"),Qt::CaseInsensitive)==0)
+      |                                                                          ^
+      |                                                                           {
+   28 |             return MessageType::NewUser;
+      |                                         
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:29:77: warning: statement should be inside braces [readability-braces-around-statements]
+   29 |         if (str.compare(QLatin1String("start_game"),Qt::CaseInsensitive)==0)
+      |                                                                             ^
+      |                                                                              {
+   30 |             return MessageType::StartGame;
+      |                                           
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:31:82: warning: statement should be inside braces [readability-braces-around-statements]
+   31 |         if (str.compare(QLatin1String("role_assignment"),Qt::CaseInsensitive)==0)
+      |                                                                                  ^
+      |                                                                                   {
+   32 |             return MessageType::RoleAssignment;
+      |                                                
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:33:83: warning: statement should be inside braces [readability-braces-around-statements]
+   33 |         if (str.compare(QLatin1String("userdisconnected"),Qt::CaseInsensitive)==0)
+      |                                                                                   ^
+      |                                                                                    {
+   34 |             return MessageType::UserDisconnected;
+      |                                                  
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:35:80: warning: statement should be inside braces [readability-braces-around-statements]
+   35 |         if (str.compare(QLatin1String("night_started"),Qt::CaseInsensitive)==0)
+      |                                                                                ^
+      |                                                                                 {
+   36 |             return MessageType::NightStated;
+      |                                             
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:37:78: warning: statement should be inside braces [readability-braces-around-statements]
+   37 |         if (str.compare(QLatin1String("night_ended"),Qt::CaseInsensitive)==0)
+      |                                                                              ^
+      |                                                                               {
+   38 |             return MessageType::NightEnded;
+      |                                            
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:39:81: warning: statement should be inside braces [readability-braces-around-statements]
+   39 |         if (str.compare(QLatin1String("voting_started"),Qt::CaseInsensitive)==0)
+      |                                                                                 ^
+      |                                                                                  {
+   40 |             return MessageType::VotingStarted;
+      |                                               
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:41:79: warning: statement should be inside braces [readability-braces-around-statements]
+   41 |         if (str.compare(QLatin1String("voting_ended"),Qt::CaseInsensitive)==0)
+      |                                                                               ^
+      |                                                                                {
+   42 |             return MessageType::VotingEnded;
+      |                                             
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:43:78: warning: statement should be inside braces [readability-braces-around-statements]
+   43 |         if (str.compare(QLatin1String("day_started"),Qt::CaseInsensitive)==0)
+      |                                                                              ^
+      |                                                                               {
+   44 |             return MessageType::DayStarted;
+      |                                            
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:45:76: warning: statement should be inside braces [readability-braces-around-statements]
+   45 |         if (str.compare(QLatin1String("game_over"),Qt::CaseInsensitive)==0)
+      |                                                                            ^
+      |                                                                             {
+   46 |             return MessageType::GameOver;
+      |                                          
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:49:13: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   49 |     QString message_type_to_string(MessageType type){
+      |     ~~~~~~~ ^                                       
+      |     auto                                             -> QString
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:75:10: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   75 |     Role role_from_string(const QString& str){
+      |     ~~~~ ^                                   
+      |     auto                                      -> Role
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:76:71: warning: statement should be inside braces [readability-braces-around-statements]
+   76 |         if(str.compare(QLatin1String("Mafia"),Qt::CaseInsensitive)==0)
+      |                                                                       ^
+      |                                                                        {
+   77 |             return Role::Mafia;
+      |                                
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:78:72: warning: statement should be inside braces [readability-braces-around-statements]
+   78 |         if(str.compare(QLatin1String("Police"),Qt::CaseInsensitive)==0)
+      |                                                                        ^
+      |                                                                         {
+   79 |             return Role::Police;
+      |                                 
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:80:72: warning: statement should be inside braces [readability-braces-around-statements]
+   80 |         if(str.compare(QLatin1String("Doctor"),Qt::CaseInsensitive)==0)
+      |                                                                        ^
+      |                                                                         {
+   81 |             return Role::Doctor;
+      |                                 
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:82:73: warning: statement should be inside braces [readability-braces-around-statements]
+   82 |         if(str.compare(QLatin1String("Citizen"),Qt::CaseInsensitive)==0)
+      |                                                                         ^
+      |                                                                          {
+   83 |             return Role::Citizen;
+      |                                  
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:86:13: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   86 |     QString role_to_string(Role role){
+      |     ~~~~~~~ ^                        
+      |     auto                              -> QString
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:96:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   96 |     QJsonObject create_login_message(const QString& username){
+      |     ~~~~~~~~~~~ ^                                            
+      |     auto                                                      -> QJsonObject
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:102:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  102 |     QJsonObject create_chat_message(const QString& sender,const QString& text,const bool& alive){
+      |     ~~~~~~~~~~~ ^                                                                               
+      |     auto                                                                                         -> QJsonObject
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:102:37: warning: 2 adjacent parameters of 'create_chat_message' of similar type ('const QString &') are easily swapped by mistake [bugprone-easily-swappable-parameters]
+  102 |     QJsonObject create_chat_message(const QString& sender,const QString& text,const bool& alive){
+      |                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:102:52: note: the first parameter in the range is 'sender'
+  102 |     QJsonObject create_chat_message(const QString& sender,const QString& text,const bool& alive){
+      |                                                    ^~~~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:102:74: note: the last parameter in the range is 'text'
+  102 |     QJsonObject create_chat_message(const QString& sender,const QString& text,const bool& alive){
+      |                                                                          ^~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:110:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  110 |     QJsonObject create_invalid_state_message(const QString& sender, const QString& reason)
+      |     ~~~~~~~~~~~ ^                                                                         
+      |     auto                                                                                   -> QJsonObject
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:110:46: warning: 2 adjacent parameters of 'create_invalid_state_message' of similar type ('const QString &') are easily swapped by mistake [bugprone-easily-swappable-parameters]
+  110 |     QJsonObject create_invalid_state_message(const QString& sender, const QString& reason)
+      |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:110:61: note: the first parameter in the range is 'sender'
+  110 |     QJsonObject create_invalid_state_message(const QString& sender, const QString& reason)
+      |                                                             ^~~~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:110:84: note: the last parameter in the range is 'reason'
+  110 |     QJsonObject create_invalid_state_message(const QString& sender, const QString& reason)
+      |                                                                                    ^~~~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:118:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  118 |     QJsonObject create_night_action(Role role,const QString& target){
+      |     ~~~~~~~~~~~ ^                                                   
+      |     auto                                                             -> QJsonObject
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:126:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  126 |     QJsonObject create_player_state(const QString& username, Role role, bool alive){
+      |     ~~~~~~~~~~~ ^                                                                  
+      |     auto                                                                            -> QJsonObject
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:133:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  133 |     QJsonObject create_game_state_update(const QString& phase,int day_number,const QJsonArray& players){
+      |     ~~~~~~~~~~~ ^                                                                                      
+      |     auto                                                                                                -> QJsonObject
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:141:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  141 |     QJsonObject create_night_started_message(){
+      |     ~~~~~~~~~~~ ^                             
+      |     auto                                       -> QJsonObject
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:147:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  147 |     QJsonObject create_ability_use(const QString &plr, const QString &target){
+      |     ~~~~~~~~~~~ ^                                                            
+      |     auto                                                                      -> QJsonObject
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:147:36: warning: 2 adjacent parameters of 'create_ability_use' of similar type ('const QString &') are easily swapped by mistake [bugprone-easily-swappable-parameters]
+  147 |     QJsonObject create_ability_use(const QString &plr, const QString &target){
+      |                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:147:51: note: the first parameter in the range is 'plr'
+  147 |     QJsonObject create_ability_use(const QString &plr, const QString &target){
+      |                                                   ^~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:147:71: note: the last parameter in the range is 'target'
+  147 |     QJsonObject create_ability_use(const QString &plr, const QString &target){
+      |                                                                       ^~~~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:155:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  155 |     QJsonObject create_voting_started_message(){
+      |     ~~~~~~~~~~~ ^                              
+      |     auto                                        -> QJsonObject
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:161:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  161 |     QJsonObject create_voting_ended_message(const QVector<QString> &voted_out, const QVector <QPair <QString, QString>> &votes){
+      |     ~~~~~~~~~~~ ^                                                                                                              
+      |     auto                                                                                                                        -> QJsonObject
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:168:25: warning: variable name 'p' is too short, expected at least 3 characters [readability-identifier-length]
+  168 |         for(const auto &p : voted_out)
+      |                         ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:168:39: warning: statement should be inside braces [readability-braces-around-statements]
+  168 |         for(const auto &p : voted_out)
+      |                                       ^
+      |                                        {
+  169 |             voted_out_people.append(p);
+      |                                        
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:178:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  178 |     QJsonObject create_vote(const QString& voter,const QString& target){
+      |     ~~~~~~~~~~~ ^                                                      
+      |     auto                                                                -> QJsonObject
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:178:29: warning: 2 adjacent parameters of 'create_vote' of similar type ('const QString &') are easily swapped by mistake [bugprone-easily-swappable-parameters]
+  178 |     QJsonObject create_vote(const QString& voter,const QString& target){
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:178:44: note: the first parameter in the range is 'voter'
+  178 |     QJsonObject create_vote(const QString& voter,const QString& target){
+      |                                            ^~~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:178:65: note: the last parameter in the range is 'target'
+  178 |     QJsonObject create_vote(const QString& voter,const QString& target){
+      |                                                                 ^~~~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:186:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  186 |     QJsonObject create_role_assignment_message(Role role, QString &username, QJsonArray& roles){
+      |     ~~~~~~~~~~~ ^                                                                              
+      |     auto                                                                                        -> QJsonObject
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:195:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  195 |     QJsonObject create_start_game(const QList<QPair<mafia_game::Role,int>>& amount_of_roles,
+      |     ~~~~~~~~~~~ ^
+      |     auto
+  196 |                                   const QJsonArray& player_names)
+      |                                                                  
+      |                                                                   -> QJsonObject
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:212:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  212 |     QJsonObject create_game_over_message(const QString& winner){
+      |     ~~~~~~~~~~~ ^                                              
+      |     auto                                                        -> QJsonObject
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:219:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  219 |     QJsonObject create_night_ended_message(const QString &target, const QMap<QString, QString> &night_information){
+      |     ~~~~~~~~~~~ ^                                                                                                 
+      |     auto                                                                                                           -> QJsonObject
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:233:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  233 |     QJsonObject create_day_started_message(){
+      |     ~~~~~~~~~~~ ^                           
+      |     auto                                     -> QJsonObject
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:239:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  239 |     QJsonObject create_player_selection(const QString &username, const bool is_selected)
+      |     ~~~~~~~~~~~ ^                                                                       
+      |     auto                                                                                 -> QJsonObject
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:248:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  248 |     QJsonObject create_lists_request()
+      |     ~~~~~~~~~~~ ^                     
+      |     auto                               -> QJsonObject
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/protocol.cpp:255:17: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  255 |     QJsonObject create_waiting_room_lists(QHash<QString, bool> &is_selected)
+      |     ~~~~~~~~~~~ ^                                                           
+      |     auto                                                                     -> QJsonObject
+82156 warnings generated.
+Suppressed 82103 warnings (82103 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[13/31][42.4s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/mainwindow.cpp
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/mainwindow.cpp:13:7: warning: initializer for member 'm_last_username' is redundant [readability-redundant-member-init]
+   13 |     , m_last_username()
+      |       ^~~~~~~~~~~~~~~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/mainwindow.cpp:16:5: warning: 'auto layout' can be declared as 'auto *layout' [readability-qualified-auto]
+   16 |     auto layout = new QVBoxLayout(this);
+      |     ^~~~
+      |     auto *
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/mainwindow.cpp:60:25: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   60 | GameWindow* MainWindow::window_ptr(Windows window)
+      | ~~~~~~~~~~~             ^                         
+      | auto                                               -> GameWindow*
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/mainwindow.cpp:81:8: warning: implicit conversion 'WaitingRoom *' -> 'bool' [readability-implicit-bool-conversion]
+   81 |     if(m_waitingRoom){
+      |        ^            
+      |                      != nullptr
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/mainwindow.cpp:86:8: warning: implicit conversion 'MainGameWindow *' -> 'bool' [readability-implicit-bool-conversion]
+   86 |     if(m_mainGame){
+      |        ^         
+      |                   != nullptr
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/mainwindow.cpp:97:12: warning: enumeration values 'JoinGame' and 'StartGame' not handled in switch [clang-diagnostic-switch]
+   97 |     switch(window){
+      |            ^~~~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/mainwindow.cpp:129:33: warning: use a trailing return type for this lambda [modernize-use-trailing-return-type]
+  129 |     QTimer::singleShot(1, this, [this](){
+      |                                 ^      
+      |                                         -> void
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/mainwindow.cpp:139:9: warning: implicit conversion 'ChatServer *' -> 'bool' [readability-implicit-bool-conversion]
+  139 |     if(!m_server){
+      |        ~^       
+      |                  == nullptr
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/mainwindow.cpp:143:60: warning: use a trailing return type for this lambda [modernize-use-trailing-return-type]
+  143 |         connect(m_server_thread,&QThread::started,m_server,[this](){
+      |                                                            ^      
+      |                                                                    -> void
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/mainwindow.cpp:144:52: warning: 1967 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+  144 |             if(!m_server->listen(QHostAddress::Any,1967)){
+      |                                                    ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/mainwindow.cpp:150:56: warning: use a trailing return type for this lambda [modernize-use-trailing-return-type]
+  150 |         connect(m_server,&ChatServer::log_message,this,[](const QString& msg){
+      |                                                        ^                    
+      |                                                                              -> void
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/mainwindow.cpp:162:10: warning: implicit conversion 'ChatServer *' -> 'bool' [readability-implicit-bool-conversion]
+  162 |     if (!m_server) return;
+      |         ~^       
+      |                   == nullptr
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/mainwindow.cpp:162:19: warning: statement should be inside braces [readability-braces-around-statements]
+  162 |     if (!m_server) return;
+      |                   ^       
+      |                    {
+113813 warnings generated.
+Suppressed 113800 warnings (113800 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[14/31][42.8s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/startgamewindow.cpp
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/startgamewindow.cpp:35:9: warning: implicit conversion 'ChatClient *' -> 'bool' [readability-implicit-bool-conversion]
+   35 |     if(!m_client){
+      |        ~^       
+      |                  == nullptr
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/startgamewindow.cpp:62:25: warning: implicit conversion 'QString *' -> 'bool' [readability-implicit-bool-conversion]
+   62 |     dialog.setTextValue(m_last_username ? *m_last_username : "");
+      |                         ^
+      |                         (               != nullptr)
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/startgamewindow.cpp:88:5: warning: use auto when initializing with a template cast to avoid duplicating the type name [modernize-use-auto]
+   88 |     QLineEdit *lineEdit = dialog.findChild<QLineEdit *>();
+      |     ^~~~~~~~~
+      |     auto
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/startgamewindow.cpp:89:9: warning: implicit conversion 'QLineEdit *' -> 'bool' [readability-implicit-bool-conversion]
+   89 |     if (lineEdit) {
+      |         ^       
+      |                  != nullptr
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/startgamewindow.cpp:90:32: warning: 20 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   90 |         lineEdit->setMaxLength(20);
+      |                                ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/startgamewindow.cpp:105:8: warning: implicit conversion 'QString *' -> 'bool' [readability-implicit-bool-conversion]
+  105 |     if(m_last_username){
+      |        ^              
+      |                        != nullptr
+114619 warnings generated.
+Suppressed 114613 warnings (114613 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[15/31][14.9s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/nightaction.cpp
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/nightaction.cpp:5:49: warning: pass by value and use std::move [modernize-pass-by-value]
+    2 | 
+    3 | namespace night_abilities {
+    4 | 
+    5 | NightAction::NightAction(NightActionTypes type, QString target):
+      |                                                 ^
+    6 |     m_type(type),m_target(target){}
+      |                                 
+      |                           std::move( )
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/nightaction.cpp:6:27: warning: parameter 'target' is passed by value and only copied once; consider moving it to avoid unnecessary copies [performance-unnecessary-value-param]
+    2 | 
+    3 | namespace night_abilities {
+    4 | 
+    5 | NightAction::NightAction(NightActionTypes type, QString target):
+    6 |     m_type(type),m_target(target){}
+      |                           ^     
+      |                           std::move( )
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/nightaction.cpp:8:22: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+    8 | QString NightAction::get_target() const{
+      | ~~~~~~~              ^                 
+      | auto                                    -> QString
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/nightaction.cpp:12:31: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   12 | NightActionTypes NightAction::get_type() const{
+      | ~~~~~~~~~~~~~~~~              ^               
+      | auto                                           -> NightActionTypes
+55292 warnings generated.
+Suppressed 55288 warnings (55288 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[16/31][33.5s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/startmeniwindow.cpp
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/startmeniwindow.cpp:19:37: warning: parameter name 'i' is too short, expected at least 3 characters [readability-identifier-length]
+   19 | void StartMeniWindow::join_game(int i)
+      |                                     ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/startmeniwindow.cpp:24:38: warning: parameter name 'i' is too short, expected at least 3 characters [readability-identifier-length]
+   24 | void StartMeniWindow::start_game(int i)
+      |                                      ^
+92961 warnings generated.
+Suppressed 92959 warnings (92959 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[17/31][24.2s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/game/DetectiveRole.cpp
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/DetectiveRole.cpp:3:45: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+    3 | night_abilities::NightAction DetectiveRole::get_night_action(QString target) const{
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~                ^                                     
+      | auto                                                                               -> night_abilities::NightAction
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/DetectiveRole.cpp:4:21: warning: statement should be inside braces [readability-braces-around-statements]
+    4 |     if(target == "")
+      |                     ^
+      |                      {
+    5 |         return night_abilities::NightAction(night_abilities::NightActionTypes::NOTHING, "");
+      |                                                                                             
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/DetectiveRole.cpp:5:16: warning: avoid repeating the return type from the declaration; use a braced initializer list instead [modernize-return-braced-init-list]
+    5 |         return night_abilities::NightAction(night_abilities::NightActionTypes::NOTHING, "");
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                              ~
+      |                {                                                                          }
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/DetectiveRole.cpp:6:12: warning: avoid repeating the return type from the declaration; use a braced initializer list instead [modernize-return-braced-init-list]
+    6 |     return night_abilities::NightAction(night_abilities::NightActionTypes::CHECK_PLAYER, target);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                       ~
+      |            {                                                                                   }
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/DetectiveRole.cpp:9:21: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+    9 | bool DetectiveRole::has_night_action() const{
+      | ~~~~                ^                       
+      | auto                                         -> bool
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/DetectiveRole.cpp:13:24: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   13 | QString DetectiveRole::get_role_name() const{
+      | ~~~~~~~                ^                    
+      | auto                                         -> QString
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/DetectiveRole.cpp:17:25: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   17 | RoleType DetectiveRole::get_type() const{
+      | ~~~~~~~~                ^               
+      | auto                                     -> RoleType
+68062 warnings generated.
+Suppressed 68055 warnings (68055 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[18/31][27.9s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votecounter.cpp
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votecounter.cpp:6:40: warning: the parameter 'voter' is copied for each invocation but only used as a const reference; consider making it a const reference [performance-unnecessary-value-param]
+    6 |     void VoteCounter::add_vote(QString voter, QString vote){
+      |                                        ^
+      |                                const  &
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votecounter.cpp:6:55: warning: the parameter 'vote' is copied for each invocation but only used as a const reference; consider making it a const reference [performance-unnecessary-value-param]
+    6 |     void VoteCounter::add_vote(QString voter, QString vote){
+      |                                                       ^
+      |                                               const  &
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votecounter.cpp:12:35: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   12 |     QVector<QString> VoteCounter::get_result(){
+      |     ~~~~~~~~~~~~~~~~              ^           
+      |     auto                                       -> QVector<QString>
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votecounter.cpp:15:66: warning: statement should be inside braces [readability-braces-around-statements]
+   15 |         for(auto it = m_votes.begin(); it != m_votes.end(); it++)
+      |                                                                  ^
+      |                                                                   {
+   16 |             max_vote_count = std::max(max_vote_count, m_get_vote_count(it.value()));
+      |                                                                                     
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votecounter.cpp:26:19: warning: variable name 'x' is too short, expected at least 3 characters [readability-identifier-length]
+   26 |         for(auto &x:result){
+      |                   ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votecounter.cpp:28:24: warning: avoid repeating the return type from the declaration; use a braced initializer list instead [modernize-return-braced-init-list]
+   28 |                 return QVector<QString> ();
+      |                        ^~~~~~~~~~~~~~~~~~~
+      |                        {}
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votecounter.cpp:36:52: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   36 |     QVector<QPair<QString, QString> > VoteCounter::get_votes(){
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~              ^          
+      |     auto                                                       -> QVector<QPair<QString, QString> >
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votecounter.cpp:48:31: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   48 |     unsigned int VoteCounter::m_get_vote_count(QString player){
+      |     ~~~~~~~~~~~~              ^                               
+      |     auto                                                       -> unsigned int
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votecounter.cpp:48:56: warning: the parameter 'player' is copied for each invocation but only used as a const reference; consider making it a const reference [performance-unnecessary-value-param]
+   48 |     unsigned int VoteCounter::m_get_vote_count(QString player){
+      |                                                        ^
+      |                                                const  &
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votecounter.cpp:50:66: warning: statement should be inside braces [readability-braces-around-statements]
+   50 |         for(auto it = m_votes.begin(); it != m_votes.end(); it++)
+      |                                                                  ^
+      |                                                                   {
+   51 |             if(it.value() == player)
+   52 |                 count ++;
+      |                          
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votecounter.cpp:51:37: warning: statement should be inside braces [readability-braces-around-statements]
+   51 |             if(it.value() == player)
+      |                                     ^
+      |                                      {
+   52 |                 count ++;
+      |                          
+62309 warnings generated.
+Suppressed 62298 warnings (62298 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[19/31][25.3s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votinground.cpp
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votinground.cpp:7:31: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+    7 |     VotingRound* VotingRound::instance()  {
+      |     ~~~~~~~~~~~~              ^
+      |     auto                                 -> VotingRound*
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votinground.cpp:14:23: warning: method 'on_player_voted' can be made static [readability-convert-member-functions-to-static]
+   14 |     void VotingRound::on_player_voted(QString voter, QString vote){
+      |                       ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votinground.cpp:16:30: warning: parameter 'voter' is passed by value and only copied once; consider moving it to avoid unnecessary copies [performance-unnecessary-value-param]
+    4 | 
+    5 | namespace voting{
+    6 | 
+    7 |     VotingRound* VotingRound::instance()  {
+    8 |         static VotingRound instance;
+    9 |         return &instance;
+   10 |     }
+   11 | 
+   12 |     VotingRound::VotingRound(QObject *parent): QObject(parent) {}
+   13 | 
+   14 |     void VotingRound::on_player_voted(QString voter, QString vote){
+   15 |         if(m_vote_is_ongoing){
+   16 |             m_votes.add_vote(voter,vote);
+      |                              ^    
+      |                              std::move( )
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votinground.cpp:16:36: warning: parameter 'vote' is passed by value and only copied once; consider moving it to avoid unnecessary copies [performance-unnecessary-value-param]
+   16 |             m_votes.add_vote(voter,vote);
+      |                                    ^   
+      |                                    std::move( )
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votinground.cpp:20:56: warning: the parameter 'candidates' is copied for each invocation but only used as a const reference; consider making it a const reference [performance-unnecessary-value-param]
+   20 |     void VotingRound::on_start_voting(QVector<QString> candidates){
+      |                                                        ^
+      |                                       const           &
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votinground.cpp:28:52: warning: 3'000 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   28 |         QTimer::singleShot(voting::VOTE_DURATION + 3'000, this , &VotingRound::on_voting_ended);
+      |                                                    ^
+70231 warnings generated.
+Suppressed 70225 warnings (70225 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[20/31][23.9s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/game/Role.cpp
+68026 warnings generated.
+Suppressed 68026 warnings (68026 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[21/31][26.8s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votingserver.cpp
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votingserver.cpp:6:29: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+    6 | VotingServer* VotingServer::instance(){
+      | ~~~~~~~~~~~~~               ^         
+      | auto                                   -> VotingServer*
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votingserver.cpp:20:29: warning: parameter 'candidates' is passed by value and only copied once; consider moving it to avoid unnecessary copies [performance-unnecessary-value-param]
+    2 |     emit start_voting_round(candidates);
+      |                             ^         
+      |                             std::move()
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votingserver.cpp:23:60: warning: the parameter 'result' is copied for each invocation but only used as a const reference; consider making it a const reference [performance-unnecessary-value-param]
+   23 | void VotingServer::on_voting_round_result(QVector<QString> result, QVector<QPair<QString,QString>> votes){
+      |                                                            ^
+      |                                           const           &
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/votingserver.cpp:23:100: warning: the parameter 'votes' is copied for each invocation but only used as a const reference; consider making it a const reference [performance-unnecessary-value-param]
+   23 | void VotingServer::on_voting_round_result(QVector<QString> result, QVector<QPair<QString,QString>> votes){
+      |                                                                                                    ^
+      |                                                                    const                          &
+88026 warnings generated.
+Suppressed 88022 warnings (88022 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[22/31][39.2s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/main.cpp
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/main.cpp:6:5: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+    6 | int main(int argc, char *argv[])
+      | ~~~ ^                           
+      | auto                             -> int
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/main.cpp:8:18: warning: variable name 'a' is too short, expected at least 3 characters [readability-identifier-length]
+    8 |     QApplication a(argc, argv);
+      |                  ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/main.cpp:9:16: warning: variable name 'w' is too short, expected at least 3 characters [readability-identifier-length]
+    9 |     MainWindow w;
+      |                ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/main.cpp:11:12: warning: static member accessed through instance [readability-static-accessed-through-instance]
+   11 |     return a.exec();
+      |            ^~
+      |            QApplication::
+113408 warnings generated.
+Suppressed 113404 warnings (113404 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[23/31][41.7s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/chatclient.cpp
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/chatclient.cpp:28:19: warning: use a trailing return type for this lambda [modernize-use-trailing-return-type]
+   28 |             this, [this](bool muted) {
+      |                   ^
+      |                                      -> void
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/chatclient.cpp:33:19: warning: use a trailing return type for this lambda [modernize-use-trailing-return-type]
+   33 |             this, [this](bool deafened) {
+      |                   ^
+      |                                         -> void
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/chatclient.cpp:38:19: warning: use a trailing return type for this lambda [modernize-use-trailing-return-type]
+   38 |             this, [this](bool recording) {
+      |                   ^
+      |                                          -> void
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/chatclient.cpp:50:52: warning: statement should be inside braces [readability-braces-around-statements]
+   50 |     if(result_val.isNull() || !result_val.isBool())
+      |                                                    ^
+      |                                                     {
+   51 |         return;
+      |                
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/chatclient.cpp:100:9: warning: the type of the loop variable 'players_value' is different from the one returned by the iterator and generates an implicit conversion; you can either change the type to the matching one ('const QJsonValueConstRef &' but 'const auto&' is always a valid option) or remove the reference to make it explicit that you are creating a new value [performance-implicit-conversion-in-loop]
+  100 |     for(const QJsonValue &players_value : players_array){
+      |         ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/chatclient.cpp:101:38: warning: statement should be inside braces [readability-braces-around-statements]
+  101 |         if(!players_value.isObject())
+      |                                      ^
+      |                                       {
+  102 |             continue;
+      |                      
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/chatclient.cpp:104:21: warning: variable name 'p' is too short, expected at least 3 characters [readability-identifier-length]
+  104 |         PlayerState p;
+      |                     ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/chatclient.cpp:139:51: warning: statement should be inside braces [readability-braces-around-statements]
+  139 |     if(roles_val.isNull() || !roles_val.isArray())
+      |                                                   ^
+      |                                                    {
+  140 |         return;
+      |                
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/chatclient.cpp:143:27: warning: statement should be inside braces [readability-braces-around-statements]
+  143 |     if(username.isEmpty())
+      |                           ^
+      |                            {
+  144 |         return;
+      |                
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/chatclient.cpp:150:9: warning: the type of the loop variable 'player' is different from the one returned by the iterator and generates an implicit conversion; you can either change the type to the matching one ('const QJsonValueConstRef &' but 'const auto&' is always a valid option) or remove the reference to make it explicit that you are creating a new value [performance-implicit-conversion-in-loop]
+  150 |     for(const QJsonValue &player : roles_arr){
+      |         ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/chatclient.cpp:151:31: warning: statement should be inside braces [readability-braces-around-statements]
+  151 |         if(!player.isObject())
+      |                               ^
+      |                                {
+  152 |             continue;
+      |                      
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/chatclient.cpp:175:5: warning: use range-based for loop instead [modernize-loop-convert]
+  175 |     for(auto it = voted_out_arr.begin(); it != voted_out_arr.end(); it++)
+      |     ^  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |        (auto && it : voted_out_arr)
+  176 |         voted_out.push_back(it->toString());
+      |                             ~~~~
+      |                             it.
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/chatclient.cpp:175:74: warning: statement should be inside braces [readability-braces-around-statements]
+  175 |     for(auto it = voted_out_arr.begin(); it != voted_out_arr.end(); it++)
+      |                                                                          ^
+      |                                                                           {
+  176 |         voted_out.push_back(it->toString());
+      |                                             
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/chatclient.cpp:215:9: warning: the type of the loop variable 'val' is different from the one returned by the iterator and generates an implicit conversion; you can either change the type to the matching one ('const QJsonValueConstRef &' but 'const auto&' is always a valid option) or remove the reference to make it explicit that you are creating a new value [performance-implicit-conversion-in-loop]
+  215 |     for(const QJsonValue &val: unselected_json){
+      |         ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/chatclient.cpp:225:9: warning: the type of the loop variable 'val' is different from the one returned by the iterator and generates an implicit conversion; you can either change the type to the matching one ('const QJsonValueConstRef &' but 'const auto&' is always a valid option) or remove the reference to make it explicit that you are creating a new value [performance-implicit-conversion-in-loop]
+  225 |     for(const QJsonValue &val: selected_json){
+      |         ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/chatclient.cpp:443:30: warning: statement should be inside braces [readability-braces-around-statements]
+  443 |     if (sender == m_username) return; // Don't play own audio
+      |                              ^                               
+      |                               {
+84545 warnings generated.
+Suppressed 84529 warnings (84529 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[24/31][21.2s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/voiceclient.cpp
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/voiceclient.cpp:41:9: warning: implicit conversion 'QAudioSource *' -> 'bool' [readability-implicit-bool-conversion]
+   41 |     if (m_audio_source) {
+      |         ^             
+      |                        != nullptr
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/voiceclient.cpp:54:9: warning: implicit conversion 'QIODevice *' -> 'bool' [readability-implicit-bool-conversion]
+   54 |     if (m_input_device) {
+      |         ^             
+      |                        != nullptr
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/voiceclient.cpp:80:9: warning: implicit conversion 'QAudioSource *' -> 'bool' [readability-implicit-bool-conversion]
+   80 |     if (m_audio_source) {
+      |         ^             
+      |                        != nullptr
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/voiceclient.cpp:90:9: warning: implicit conversion 'QAudioSink *' -> 'bool' [readability-implicit-bool-conversion]
+   90 |     if (m_audio_sink) {
+      |         ^           
+      |                      != nullptr
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/voiceclient.cpp:95:9: warning: implicit conversion 'QBuffer *' -> 'bool' [readability-implicit-bool-conversion]
+   95 |     if (m_playback_buffer) {
+      |         ^                
+      |                           != nullptr
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/voiceclient.cpp:146:10: warning: implicit conversion 'QIODevice *' -> 'bool' [readability-implicit-bool-conversion]
+  146 |     if (!m_input_device || m_muted) {
+      |         ~^
+      |         (               == nullptr)
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/voiceclient.cpp:162:52: warning: 8 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+  162 |     int bytesPerSample = mafia_game::SAMPLE_SIZE / 8;
+      |                                                    ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/voiceclient.cpp:163:87: warning: 1000 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+  163 |     int samplesPerFrame = (mafia_game::SAMPLE_RATE * mafia_game::FRAME_DURATION_MS) / 1000;
+      |                                                                                       ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Client/voiceclient.cpp:178:24: warning: implicit conversion 'QBuffer *' -> 'bool' [readability-implicit-bool-conversion]
+  178 |     if (m_deafened || !m_playback_buffer) {
+      |                       ~^                
+      |                       (                  == nullptr)
+81035 warnings generated.
+Suppressed 81026 warnings (81026 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[25/31][29.4s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/nightabilitiesserver.cpp
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/nightabilitiesserver.cpp:5:79: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+    5 | night_abilities::NightAbilitiesServer *night_abilities::NightAbilitiesServer::instance(){
+      | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                       ^         
+      | auto                                                                                     -> night_abilities::NightAbilitiesServer *
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/nightabilitiesserver.cpp:15:58: warning: 3'000 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   15 |     QTimer::singleShot(night_abilities::NIGHT_DURATION + 3'000, this , &night_abilities::NightAbilitiesServer::on_night_ending);
+      |                                                          ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/nightabilitiesserver.cpp:18:76: warning: the parameter 'plr' is copied for each invocation but only used as a const reference; consider making it a const reference [performance-unnecessary-value-param]
+   18 | void night_abilities::NightAbilitiesServer::on_player_used_ability(QString plr, QString target){
+      |                                                                            ^
+      |                                                                    const  &
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/nightabilitiesserver.cpp:22:27: warning: parameter 'target' is passed by value and only copied once; consider moving it to avoid unnecessary copies [performance-unnecessary-value-param]
+    4 |     m_ability_uses[plr] = target;
+      |                           ^     
+      |                           std::move( )
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/nightabilitiesserver.cpp:53:13: warning: switch has 2 consecutive identical branches [bugprone-branch-clone]
+   53 |             case NightActionTypes::NOTHING:
+      |             ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/nightabilitiesserver.cpp:57:22: note: last of these clones ends here
+   57 |                 break;
+      |                      ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/nightabilitiesserver.cpp:62:8: warning: the 'empty' method should be used to check for emptiness instead of 'size' [readability-container-size-empty]
+   62 |     if(players_to_kill.size()){
+      |        ^~~~~~~~~~~~~~~~~~~~~~
+      |        !players_to_kill.empty()
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:754:17: note: method 'QList'::empty() defined here
+  754 |     inline bool empty() const noexcept
+      |                 ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/nightabilitiesserver.cpp:62:8: warning: implicit conversion 'qsizetype' (aka 'long long') -> 'bool' [readability-implicit-bool-conversion]
+   62 |     if(players_to_kill.size()){
+      |        ^                     
+      |                               != 0
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Shared/nightabilitiesserver.cpp:64:28: warning: narrowing conversion from 'qint64' (aka 'long long') to signed type 'int' is implementation-defined [bugprone-narrowing-conversions]
+   64 |         int random_index = rng->bounded(players_to_kill.size());
+      |                            ^
+88541 warnings generated.
+Suppressed 88533 warnings (88533 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[26/31][32.9s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:19:1: warning: duplicate include [readability-duplicate-include]
+   18 | 
+   19 | #include "../../game/GameState.h"
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:38:5: warning: use auto when initializing with new to avoid duplicating the type name [modernize-use-auto]
+   38 |     ServerWorker *worker = new ServerWorker(this);
+      |     ^~~~~~~~~~~~
+      |     auto
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:43:68: warning: prefer a lambda to std::bind [modernize-avoid-bind]
+   43 |     connect(worker, &ServerWorker::disconnected_from_client, this, std::bind(&ChatServer::user_disconnected, this, worker));
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                    [this, worker] { user_disconnected(worker); }
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:44:49: warning: prefer a lambda to std::bind [modernize-avoid-bind]
+   44 |     connect(worker, &ServerWorker::error, this, std::bind(&ChatServer::user_error, this, worker));
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                 [this, worker] { user_error(worker); }
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:45:57: warning: prefer a lambda to std::bind [modernize-avoid-bind]
+   45 |     connect(worker, &ServerWorker::json_received, this, std::bind(&ChatServer::json_received, this, worker, std::placeholders::_1));
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                         [this, worker](auto && PH1) { json_received(worker, std::forward<decltype(PH1)>(PH1)); }
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:52:18: warning: method 'send_json' can be made static [readability-convert-member-functions-to-static]
+   52 | void ChatServer::send_json(ServerWorker *destination, const QJsonObject &message)
+      |                  ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:61:31: warning: statement should be inside braces [readability-braces-around-statements]
+   61 |         if (worker == exclude)
+      |                               ^
+      |                                {
+   62 |             continue;
+      |                      
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:71:42: warning: statement should be inside braces [readability-braces-around-statements]
+   71 |     if (sender->get_username().isEmpty())
+      |                                          ^
+      |                                           {
+   72 |         return json_from_logged_out(sender, doc);
+      |                                                  
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:72:9: warning: return statement within a void function should not have a specified return value [readability-avoid-return-with-void-value]
+   72 |         return json_from_logged_out(sender, doc);
+      |         ^~~~~~                                   
+      |          {
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:117:49: warning: statement should be inside braces [readability-braces-around-statements]
+  117 |     if (typeVal.isNull() || !typeVal.isString())
+      |                                                 ^
+      |                                                  {
+  118 |         return;
+      |                
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:119:86: warning: statement should be inside braces [readability-braces-around-statements]
+  119 |     if (typeVal.toString().compare(QLatin1String("login"), Qt::CaseInsensitive) != 0)
+      |                                                                                      ^
+      |                                                                                       {
+  120 |         return;
+      |                
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:122:57: warning: statement should be inside braces [readability-braces-around-statements]
+  122 |     if (usernameVal.isNull() || !usernameVal.isString())
+      |                                                         ^
+      |                                                          {
+  123 |         return;
+      |                
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:125:31: warning: statement should be inside braces [readability-braces-around-statements]
+  125 |     if (newUsername.isEmpty())
+      |                               ^
+      |                                {
+  126 |         return;
+      |                
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:128:30: warning: statement should be inside braces [readability-braces-around-statements]
+  128 |         if (worker == sender)
+      |                              ^
+      |                               {
+  129 |             continue;
+      |                      
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:165:49: warning: statement should be inside braces [readability-braces-around-statements]
+  165 |     if (typeVal.isNull() || !typeVal.isString())
+      |                                                 ^
+      |                                                  {
+  166 |         return;
+      |                
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:191:51: warning: statement should be inside braces [readability-braces-around-statements]
+  191 |     if (text_val.isNull() || !text_val.isString())
+      |                                                   ^
+      |                                                    {
+  192 |         return;
+      |                
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:194:24: warning: statement should be inside braces [readability-braces-around-statements]
+  194 |     if (text.isEmpty())
+      |                        ^
+      |                         {
+  195 |         return;
+      |                
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:205:34: warning: statement should be inside braces [readability-braces-around-statements]
+  205 |             if (worker == sender)
+      |                                  ^
+      |                                   {
+  206 |                 continue;
+      |                          
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:218:30: warning: statement should be inside braces [readability-braces-around-statements]
+  218 |     if(roles_array.isEmpty())
+      |                              ^
+      |                               {
+  219 |         return;
+      |                
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:220:9: warning: the type of the loop variable 'val' is different from the one returned by the iterator and generates an implicit conversion; you can either change the type to the matching one ('const QJsonValueConstRef &' but 'const auto&' is always a valid option) or remove the reference to make it explicit that you are creating a new value [performance-implicit-conversion-in-loop]
+  220 |     for(const QJsonValue& val: roles_array){
+      |         ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:221:29: warning: statement should be inside braces [readability-braces-around-statements]
+  221 |         if (!val.isObject()) continue;
+      |                             ^         
+      |                              {
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:283:5: warning: redundant return statement at the end of a function with a void return type [readability-redundant-control-flow]
+  281 | 
+  282 |     //broadcast(doc_obj,nullptr);
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  283 |     return;
+      |     ^~~~~~~
+  284 | }
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:309:14: warning: loop variable is copied but only used as const reference; consider making it a const reference [performance-for-range-copy]
+  309 |     for(auto x:plrs)
+      |              ^
+      |         const  &
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:309:14: warning: variable name 'x' is too short, expected at least 3 characters [readability-identifier-length]
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:309:21: warning: statement should be inside braces [readability-braces-around-statements]
+  309 |     for(auto x:plrs)
+      |                     ^
+      |                      {
+  310 |         qDebug()<<x<<" ";
+      |                          
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:332:60: warning: the parameter 'killed_plr' is copied for each invocation but only used as a const reference; consider making it a const reference [performance-unnecessary-value-param]
+  332 | void ChatServer::handle_inform_client_night_action(QString killed_plr, QMap<QString, QString> night_info){
+      |                                                            ^
+      |                                                    const  &
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:332:95: warning: the parameter 'night_info' is copied for each invocation but only used as a const reference; consider making it a const reference [performance-unnecessary-value-param]
+  332 | void ChatServer::handle_inform_client_night_action(QString killed_plr, QMap<QString, QString> night_info){
+      |                                                                                               ^
+      |                                                                        const                 &
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:348:70: warning: the parameter 'players_to_kill' is copied for each invocation but only used as a const reference; consider making it a const reference [performance-unnecessary-value-param]
+  348 | void ChatServer::handle_inform_client_voting_result(QVector<QString> players_to_kill, QVector<QPair<QString, QString> > votes){
+      |                                                                      ^
+      |                                                     const           &
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:348:121: warning: the parameter 'votes' is copied for each invocation but only used as a const reference; consider making it a const reference [performance-unnecessary-value-param]
+  348 | void ChatServer::handle_inform_client_voting_result(QVector<QString> players_to_kill, QVector<QPair<QString, QString> > votes){
+      |                                                                                                                         ^
+      |                                                                                       const                            &
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:349:15: warning: variable name 'pl' is too short, expected at least 3 characters [readability-identifier-length]
+  349 |     for(auto &pl: players_to_kill){
+      |               ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:388:5: warning: use range-based for loop instead [modernize-loop-convert]
+  388 |     for (auto it = m_player_alive.begin(); it != m_player_alive.end(); ++it) {
+      |     ^   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         (bool & it : m_player_alive)
+  389 |         *it = false;
+      |         ~~~
+      |         it
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:409:15: warning: variable name 'x' is too short, expected at least 3 characters [readability-identifier-length]
+  409 |     for (auto x : amount_of_roles){
+      |               ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:485:24: warning: 8000 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+  485 |     QTimer::singleShot(8000, this, [this](){
+      |                        ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:485:36: warning: use a trailing return type for this lambda [modernize-use-trailing-return-type]
+  485 |     QTimer::singleShot(8000, this, [this](){
+      |                                    ^      
+      |                                            -> void
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.h:39:10: warning: function 'ChatServer::handle_message' has a definition with different parameter names [readability-inconsistent-declaration-parameter-name]
+   39 |     void handle_message(ServerWorker *sender, const QJsonObject &docObj);
+      |          ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:189:18: note: the definition seen here
+  189 | void ChatServer::handle_message(ServerWorker *sender, const QJsonObject &doc_obj){
+      |                  ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.h:39:10: note: differing parameters are named here: ('docObj'), in definition: ('doc_obj')
+   39 |     void handle_message(ServerWorker *sender, const QJsonObject &docObj);
+      |          ^                                                       ~~~~~~
+      |                                                                  doc_obj
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.h:40:10: warning: function 'ChatServer::handle_game_start' has a definition with different parameter names [readability-inconsistent-declaration-parameter-name]
+   40 |     void handle_game_start(ServerWorker *sender, const QJsonObject &docObj);
+      |          ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.cpp:215:18: note: the definition seen here
+  215 | void ChatServer::handle_game_start(ServerWorker *sender, const QJsonObject &doc_obj){
+      |                  ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/server_client/Server/chatserver.h:40:10: note: differing parameters are named here: ('docObj'), in definition: ('doc_obj')
+   40 |     void handle_game_start(ServerWorker *sender, const QJsonObject &docObj);
+      |          ^                                                          ~~~~~~
+      |                                                                     doc_obj
+96868 warnings generated.
+Suppressed 96832 warnings (96832 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[27/31][21.7s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/gamewindow.cpp
+90916 warnings generated.
+Suppressed 90916 warnings (90916 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[28/31][24.5s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/waitingroom.cpp
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/waitingroom.cpp:56:9: warning: implicit conversion 'QStandardItemModel *' -> 'bool' [readability-implicit-bool-conversion]
+   56 |     if (m_chat_model){
+      |         ^           
+      |                      != nullptr
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/waitingroom.cpp:61:9: warning: implicit conversion 'QString *' -> 'bool' [readability-implicit-bool-conversion]
+   61 |     if (m_last_username){
+      |         ^              
+      |                         != nullptr
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/waitingroom.cpp:67:22: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   67 | QString WaitingRoom::break_long_words(const QString &text, int max)
+      | ~~~~~~~              ^                                             
+      | auto                                                                -> QString
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/waitingroom.cpp:67:22: warning: method 'break_long_words' can be made static [readability-convert-member-functions-to-static]
+   67 | QString WaitingRoom::break_long_words(const QString &text, int max)
+      |                      ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/waitingroom.cpp:70:17: warning: narrowing conversion from 'qsizetype' (aka 'long long') to signed type 'int' is implementation-defined [bugprone-narrowing-conversions]
+   70 |     int size =  words.size();
+      |                 ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/waitingroom.cpp:77:53: warning: 0x200B is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   77 |                     broken += word.mid(j,max)+QChar(0x200B);//nevidljivi karakter bez sirine
+      |                                                     ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/waitingroom.cpp:114:63: warning: the parameter 'username' is copied for each invocation but only used as a const reference; consider making it a const reference [performance-unnecessary-value-param]
+  114 | void WaitingRoom::move_to_game(mafia_game::Role role, QString username, QHash<QString,mafia_game::Role> roles)
+      |                                                               ^
+      |                                                       const  &
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/waitingroom.cpp:135:9: warning: 'auto player' can be declared as 'auto *player' [readability-qualified-auto]
+  135 |         auto player = new Player(it.key(), role);
+      |         ^~~~
+      |         auto *
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/waitingroom.cpp:135:27: warning: 2nd function call argument is an uninitialized value [clang-analyzer-core.CallAndMessage]
+  135 |         auto player = new Player(it.key(), role);
+      |                           ^                ~~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/waitingroom.cpp:116:5: note: Loop condition is true.  Entering loop body
+  116 |     for(auto it = roles.begin(); it != roles.end(); it++){
+      |     ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/waitingroom.cpp:117:9: note: 'role' declared without an initial value
+  117 |         Role *role;
+      |         ^~~~~~~~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/waitingroom.cpp:118:9: note: Control jumps to the 'default' case at line 131
+  118 |         switch (it.value()) {
+      |         ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/waitingroom.cpp:132:13: note:  Execution continues on line 135
+  132 |             break;
+      |             ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/waitingroom.cpp:135:27: note: 2nd function call argument is an uninitialized value
+  135 |         auto player = new Player(it.key(), role);
+      |                           ^                ~~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/waitingroom.cpp:179:24: warning: statement should be inside braces [readability-braces-around-statements]
+  179 |     if (text.isEmpty())
+      |                        ^
+      |                         {
+  180 |         return;
+      |                
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/waitingroom.cpp:198:36: warning: 2 adjacent parameters of 'received_message' of similar type ('const QString &') are easily swapped by mistake [bugprone-easily-swappable-parameters]
+  198 | void WaitingRoom::received_message(const QString &sender,const QString& text,const bool& alive){
+      |                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/waitingroom.cpp:198:51: note: the first parameter in the range is 'sender'
+  198 | void WaitingRoom::received_message(const QString &sender,const QString& text,const bool& alive){
+      |                                                   ^~~~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/waitingroom.cpp:198:73: note: the last parameter in the range is 'text'
+  198 | void WaitingRoom::received_message(const QString &sender,const QString& text,const bool& alive){
+      |                                                                         ^~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/waitingroom.cpp:261:39: warning: 2 adjacent parameters of 'update_player_lists' of similar type ('QVector<QString>') are easily swapped by mistake [bugprone-easily-swappable-parameters]
+  261 | void WaitingRoom::update_player_lists(QVector<QString> unselected, QVector<QString> selected)
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/waitingroom.cpp:261:56: note: the first parameter in the range is 'unselected'
+  261 | void WaitingRoom::update_player_lists(QVector<QString> unselected, QVector<QString> selected)
+      |                                                        ^~~~~~~~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/waitingroom.cpp:261:85: note: the last parameter in the range is 'selected'
+  261 | void WaitingRoom::update_player_lists(QVector<QString> unselected, QVector<QString> selected)
+      |                                                                                     ^~~~~~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/waitingroom.cpp:261:56: warning: the parameter 'unselected' is copied for each invocation but only used as a const reference; consider making it a const reference [performance-unnecessary-value-param]
+  261 | void WaitingRoom::update_player_lists(QVector<QString> unselected, QVector<QString> selected)
+      |                                                        ^
+      |                                       const           &
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/waitingroom.cpp:261:85: warning: the parameter 'selected' is copied for each invocation but only used as a const reference; consider making it a const reference [performance-unnecessary-value-param]
+  261 | void WaitingRoom::update_player_lists(QVector<QString> unselected, QVector<QString> selected)
+      |                                                                                     ^
+      |                                                                    const           &
+103870 warnings generated.
+Suppressed 103856 warnings (103856 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[29/31][26.3s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/game/gamemanager.cpp
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/gamemanager.cpp:8:38: warning: use a trailing return type for this lambda [modernize-use-trailing-return-type]
+    8 |     QTimer::singleShot(DAY_DURATION, [this](){
+      |                                      ^      
+      |                                              -> void
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/gamemanager.cpp:18:55: warning: the parameter 'players_to_kill' is copied for each invocation but only used as a const reference; consider making it a const reference [performance-unnecessary-value-param]
+   18 | void GameManager::on_voting_finished(QVector<QString> players_to_kill){
+      |                                                       ^
+      |                                      const           &
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/gamemanager.cpp:19:21: warning: variable name 'p' is too short, expected at least 3 characters [readability-identifier-length]
+   19 |     for(const auto &p : players_to_kill)
+      |                     ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/gamemanager.cpp:19:41: warning: statement should be inside braces [readability-braces-around-statements]
+   19 |     for(const auto &p : players_to_kill)
+      |                                         ^
+      |                                          {
+   20 |         GameState::kill_player(p);
+      |                                   
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/gamemanager.cpp:23:49: warning: statement should be inside braces [readability-braces-around-statements]
+   23 |     if(GameState::get_phase() == GamePhase::End)
+      |                                                 ^
+      |                                                  {
+   24 |         return;
+      |                
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/gamemanager.cpp:26:47: warning: use a trailing return type for this lambda [modernize-use-trailing-return-type]
+   26 |     QTimer::singleShot(INTERMISSION_DURATION, [this](){
+      |                                               ^      
+      |                                                       -> void
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/gamemanager.cpp:32:45: warning: the parameter 'target' is copied for each invocation but only used as a const reference; consider making it a const reference [performance-unnecessary-value-param]
+   32 | void GameManager::on_night_finished(QString target){
+      |                                             ^
+      |                                     const  &
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/gamemanager.cpp:33:19: warning: statement should be inside braces [readability-braces-around-statements]
+   33 |     if(target!="")
+      |                   ^
+      |                    {
+   34 |         GameState::kill_player(target);
+      |                                        
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/gamemanager.cpp:37:49: warning: statement should be inside braces [readability-braces-around-statements]
+   37 |     if(GameState::get_phase() == GamePhase::End)
+      |                                                 ^
+      |                                                  {
+   38 |         return;
+      |                
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/game/gamemanager.cpp:40:47: warning: use a trailing return type for this lambda [modernize-use-trailing-return-type]
+   40 |     QTimer::singleShot(INTERMISSION_DURATION, [this](){
+      |                                               ^      
+      |                                                       -> void
+87909 warnings generated.
+Suppressed 87899 warnings (87899 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[30/31][41.2s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:33:47: warning: 70 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   33 |     m_graphicsView->setBackgroundBrush(QColor(70, 35, 35));
+      |                                               ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:33:51: warning: 35 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   33 |     m_graphicsView->setBackgroundBrush(QColor(70, 35, 35));
+      |                                                   ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:33:55: warning: 35 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   33 |     m_graphicsView->setBackgroundBrush(QColor(70, 35, 35));
+      |                                                       ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:34:48: warning: 70 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   34 |     m_graphicsScene->setBackgroundBrush(QColor(70, 35, 35));
+      |                                                ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:34:52: warning: 35 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   34 |     m_graphicsScene->setBackgroundBrush(QColor(70, 35, 35));
+      |                                                    ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:34:56: warning: 35 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   34 |     m_graphicsScene->setBackgroundBrush(QColor(70, 35, 35));
+      |                                                        ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:45:11: warning: variable name 'w' is too short, expected at least 3 characters [readability-identifier-length]
+   45 |     qreal w = viewSize.width();
+      |           ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:46:11: warning: variable name 'h' is too short, expected at least 3 characters [readability-identifier-length]
+   46 |     qreal h = viewSize.height();
+      |           ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:52:34: warning: 125 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   52 |     m_graphicsScene->addEllipse(-125, -130, 250, 250, QPen(Qt::black), QBrush(Qt::darkGray));
+      |                                  ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:52:40: warning: 130 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   52 |     m_graphicsScene->addEllipse(-125, -130, 250, 250, QPen(Qt::black), QBrush(Qt::darkGray));
+      |                                        ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:52:45: warning: 250 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   52 |     m_graphicsScene->addEllipse(-125, -130, 250, 250, QPen(Qt::black), QBrush(Qt::darkGray));
+      |                                             ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:52:50: warning: 250 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   52 |     m_graphicsScene->addEllipse(-125, -130, 250, 250, QPen(Qt::black), QBrush(Qt::darkGray));
+      |                                                  ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:54:15: warning: variable name 'pl' is too short, expected at least 3 characters [readability-identifier-length]
+   54 |     for(auto &pl: Player::players){
+      |               ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:59:25: warning: 1000 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   59 |     m_timer.setInterval(1000);
+      |                         ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:80:33: warning: use a trailing return type for this lambda [modernize-use-trailing-return-type]
+   80 |     QTimer::singleShot(1, this, [this]() {
+      |                                 ^
+      |                                          -> void
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:101:9: warning: implicit conversion 'QStandardItemModel *' -> 'bool' [readability-implicit-bool-conversion]
+  101 |     if (m_chat_model){
+      |         ^           
+      |                      != nullptr
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:106:9: warning: implicit conversion 'QString *' -> 'bool' [readability-implicit-bool-conversion]
+  106 |     if (m_last_username){
+      |         ^              
+      |                         != nullptr
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:111:25: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  111 | QString MainGameWindow::break_long_words(const QString &text, int max)
+      | ~~~~~~~                 ^                                             
+      | auto                                                                   -> QString
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:111:25: warning: method 'break_long_words' can be made static [readability-convert-member-functions-to-static]
+  111 | QString MainGameWindow::break_long_words(const QString &text, int max)
+      |                         ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:115:17: warning: narrowing conversion from 'qsizetype' (aka 'long long') to signed type 'int' is implementation-defined [bugprone-narrowing-conversions]
+  115 |     int size =  words.size();
+      |                 ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:122:53: warning: 0x200B is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+  122 |                     broken += word.mid(j,max)+QChar(0x200B);//nevidljivi karakter bez sirine
+      |                                                     ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:175:38: warning: 30 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+  175 |     ui->counter->setTime(QTime(0, 0, 30));
+      |                                      ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:197:38: warning: 30 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+  197 |     ui->counter->setTime(QTime(0, 0, 30));
+      |                                      ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:201:50: warning: the parameter 'killed' is copied for each invocation but only used as a const reference; consider making it a const reference [performance-unnecessary-value-param]
+  201 | void MainGameWindow::voting_end(QVector<QString> killed, QVector<QPair<QString, QString>> vote_list)
+      |                                                  ^
+      |                                 const           &
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:229:40: warning: the parameter 'killed' is copied for each invocation but only used as a const reference; consider making it a const reference [performance-unnecessary-value-param]
+  229 | void MainGameWindow::night_end(QString killed, QMap<QString, QString> info)
+      |                                        ^
+      |                                const  &
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:234:46: warning: static member accessed through instance [readability-static-accessed-through-instance]
+  234 |             if(icon->m_player->get_name() == PlayerIcon::user_icon->voted_name){
+      |                                              ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                              PlayerIcon::
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:259:24: warning: 5000 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+  259 |     QTimer::singleShot(5000, this, [this](){
+      |                        ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:259:36: warning: use a trailing return type for this lambda [modernize-use-trailing-return-type]
+  259 |     QTimer::singleShot(5000, this, [this](){
+      |                                    ^      
+      |                                            -> void
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:285:24: warning: statement should be inside braces [readability-braces-around-statements]
+  285 |     if (text.isEmpty())
+      |                        ^
+      |                         {
+  286 |         return;
+      |                
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:304:39: warning: 2 adjacent parameters of 'received_message' of similar type ('const QString &') are easily swapped by mistake [bugprone-easily-swappable-parameters]
+  304 | void MainGameWindow::received_message(const QString &sender, const QString &text,const bool &alive)
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:304:54: note: the first parameter in the range is 'sender'
+  304 | void MainGameWindow::received_message(const QString &sender, const QString &text,const bool &alive)
+      |                                                      ^~~~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:304:77: note: the last parameter in the range is 'text'
+  304 | void MainGameWindow::received_message(const QString &sender, const QString &text,const bool &alive)
+      |                                                                             ^~~~
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:378:44: warning: 160 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+  378 |     m_intro_overlay->setBrush(QColor(0,0,0,160));
+      |                                            ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:379:32: warning: 10 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+  379 |     m_intro_overlay->setZValue(10);
+      |                                ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:382:5: warning: 'auto overlayEffect' can be declared as 'auto *overlayEffect' [readability-qualified-auto]
+  382 |     auto overlayEffect = new QGraphicsOpacityEffect;
+      |     ^~~~
+      |     auto *
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:386:13: warning: variable name 'pl' is too short, expected at least 3 characters [readability-identifier-length]
+  386 |     Player *pl;
+      |             ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:406:38: warning: 50 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+  406 |     m_role_icon = new PlayerIcon(pl, 50);
+      |                                      ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:408:28: warning: 11 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+  408 |     m_role_icon->setZValue(11);
+      |                            ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:411:27: warning: 0.5 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+  411 |     m_role_icon->setScale(0.5);
+      |                           ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:414:5: warning: 'auto fadeIn' can be declared as 'auto *fadeIn' [readability-qualified-auto]
+  414 |     auto fadeIn = new QPropertyAnimation(m_role_icon, "opacity");
+      |     ^~~~
+      |     auto *
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:417:25: warning: 400 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+  417 |     fadeIn->setDuration(400);
+      |                         ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:419:5: warning: 'auto scaleAnim' can be declared as 'auto *scaleAnim' [readability-qualified-auto]
+  419 |     auto scaleAnim = new QPropertyAnimation(m_role_icon, "scale");
+      |     ^~~~
+      |     auto *
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:420:30: warning: 0.5 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+  420 |     scaleAnim->setStartValue(0.5);
+      |                              ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:422:28: warning: 400 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+  422 |     scaleAnim->setDuration(400);
+      |                            ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:424:5: warning: 'auto appearGroup' can be declared as 'auto *appearGroup' [readability-qualified-auto]
+  424 |     auto appearGroup = new QParallelAnimationGroup;
+      |     ^~~~
+      |     auto *
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:428:5: warning: 'auto pause' can be declared as 'auto *pause' [readability-qualified-auto]
+  428 |     auto pause = new QPauseAnimation(2000);
+      |     ^~~~
+      |     auto *
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:428:38: warning: 2000 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+  428 |     auto pause = new QPauseAnimation(2000);
+      |                                      ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:431:43: warning: '/' has higher precedence than '+'; add parentheses to explicitly specify the order of operations [readability-math-missing-parentheses]
+  431 |     QPointF bottomLeft(sceneRect.left() + m_role_icon->boundingRect().width()/2 - 10,
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                           (                                    )
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:431:83: warning: 10 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+  431 |     QPointF bottomLeft(sceneRect.left() + m_role_icon->boundingRect().width()/2 - 10,
+      |                                                                                   ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:432:45: warning: '/' has higher precedence than '-'; add parentheses to explicitly specify the order of operations [readability-math-missing-parentheses]
+  432 |                        sceneRect.bottom() - m_role_icon->boundingRect().height()/2 + 10);
+      |                                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                             (                                     )
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:432:86: warning: 10 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+  432 |                        sceneRect.bottom() - m_role_icon->boundingRect().height()/2 + 10);
+      |                                                                                      ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:437:30: warning: 800 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+  437 |     m_move_anim->setDuration(800);
+      |                              ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:440:5: warning: 'auto overlayFade' can be declared as 'auto *overlayFade' [readability-qualified-auto]
+  440 |     auto overlayFade = new QPropertyAnimation(overlayEffect, "opacity");
+      |     ^~~~
+      |     auto *
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:443:30: warning: 800 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+  443 |     overlayFade->setDuration(800);
+      |                              ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:446:5: warning: 'auto moveAndFadeGroup' can be declared as 'auto *moveAndFadeGroup' [readability-qualified-auto]
+  446 |     auto moveAndFadeGroup = new QParallelAnimationGroup;
+      |     ^~~~
+      |     auto *
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:450:5: warning: 'auto introSequence' can be declared as 'auto *introSequence' [readability-qualified-auto]
+  450 |     auto introSequence = new QSequentialAnimationGroup;
+      |     ^~~~
+      |     auto *
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:455:66: warning: use a trailing return type for this lambda [modernize-use-trailing-return-type]
+  455 |     connect(introSequence, &QSequentialAnimationGroup::finished, [this]() {
+      |                                                                  ^
+      |                                                                           -> void
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:465:16: warning: narrowing conversion from 'qsizetype' (aka 'long long') to signed type 'int' is implementation-defined [bugprone-narrowing-conversions]
+  465 |     int size = PlayerIcon::icons.size();
+      |                ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:469:15: warning: variable name 'dx' is too short, expected at least 3 characters [readability-identifier-length]
+  469 |         qreal dx = 175 * qCos(angle);
+      |               ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:469:20: warning: 175 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+  469 |         qreal dx = 175 * qCos(angle);
+      |                    ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:470:15: warning: variable name 'dy' is too short, expected at least 3 characters [readability-identifier-length]
+  470 |         qreal dy = 175 * qSin(angle);
+      |               ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:470:20: warning: 175 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+  470 |         qreal dy = 175 * qSin(angle);
+      |                    ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:480:9: warning: 'auto moveAnim' can be declared as 'auto *moveAnim' [readability-qualified-auto]
+  480 |         auto moveAnim = new QPropertyAnimation(PlayerIcon::icons[i], "pos");
+      |         ^~~~
+      |         auto *
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:483:31: warning: 400 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+  483 |         moveAnim->setDuration(400);
+      |                               ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:485:9: warning: 'auto fadeAnim' can be declared as 'auto *fadeAnim' [readability-qualified-auto]
+  485 |         auto fadeAnim = new QPropertyAnimation(PlayerIcon::icons[i], "opacity");
+      |         ^~~~
+      |         auto *
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:488:31: warning: 300 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+  488 |         fadeAnim->setDuration(300);
+      |                               ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:490:9: warning: 'auto parallel' can be declared as 'auto *parallel' [readability-qualified-auto]
+  490 |         auto parallel = new QParallelAnimationGroup;
+      |         ^~~~
+      |         auto *
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:494:9: warning: 'auto sequence' can be declared as 'auto *sequence' [readability-qualified-auto]
+  494 |         auto sequence = new QSequentialAnimationGroup;
+      |         ^~~~
+      |         auto *
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:495:32: warning: 120 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+  495 |         sequence->addPause(i * 120);
+      |                                ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:517:9: warning: implicit conversion 'QGraphicsRectItem *' -> 'bool' [readability-implicit-bool-conversion]
+  517 |     if (m_intro_overlay) {
+      |         ^              
+      |                         != nullptr
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:522:43: warning: '/' has higher precedence than '+'; add parentheses to explicitly specify the order of operations [readability-math-missing-parentheses]
+  522 |     QPointF bottomLeft(sceneRect.left() + m_role_icon->boundingRect().width()/2 - 10,
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                           (                                    )
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:522:83: warning: 10 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+  522 |     QPointF bottomLeft(sceneRect.left() + m_role_icon->boundingRect().width()/2 - 10,
+      |                                                                                   ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:523:45: warning: '/' has higher precedence than '-'; add parentheses to explicitly specify the order of operations [readability-math-missing-parentheses]
+  523 |                        sceneRect.bottom() - m_role_icon->boundingRect().height()/2 + 10);
+      |                                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                             (                                     )
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:523:86: warning: 10 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+  523 |                        sceneRect.bottom() - m_role_icon->boundingRect().height()/2 + 10);
+      |                                                                                      ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/maingamewindow.cpp:525:29: warning: implicit conversion 'QPropertyAnimation *' -> 'bool' [readability-implicit-bool-conversion]
+  525 |     if(!m_intro_finished && m_move_anim){
+      |                             ^          
+      |                             (           != nullptr)
+118233 warnings generated.
+Suppressed 118160 warnings (118160 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+
+[31/31][62.4s] clang-tidy-21 -header-filter=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/../Mafija/(game|GUI|server_client)/.* -checks=bugprone-*,performance-*,modernize-*,readability-* -extra-arg=-Wno-unknown-warning-option -p=/home/milica/Desktop/2023_Analysis_lexy/clang-tidy/build /home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:22:20: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+   22 | QRectF PlayerIcon::boundingRect() const
+      | ~~~~~~             ^                   
+      | auto                                    -> QRectF
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:25:23: warning: 12 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   25 |     font.setPointSize(12);
+      |                       ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:26:19: warning: variable name 'fm' is too short, expected at least 3 characters [readability-identifier-length]
+   26 |     QFontMetricsF fm(font);
+      |                   ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:28:52: warning: 20 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   28 |     qreal textWidth = fm.horizontalAdvance(QString(20, QLatin1Char('M')));
+      |                                                    ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:31:38: warning: 4.5 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   31 |     qreal iconWidth = m_headRadius * 4.5;
+      |                                      ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:32:39: warning: 6.5 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   32 |     qreal iconHeight = m_headRadius * 6.5;
+      |                                       ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:35:33: warning: '*' has higher precedence than '+'; add parentheses to explicitly specify the order of operations [readability-math-missing-parentheses]
+   35 |     qreal height = iconHeight + 2*textHeight;
+      |                                 ^~~~~~~~~~~~~
+      |                                 (           )
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:37:12: warning: avoid repeating the return type from the declaration; use a braced initializer list instead [modernize-return-braced-init-list]
+   37 |     return QRectF(-width/2.0, -m_headRadius*2.5 - 2*textHeight, width, height);
+      |            ^~~~~~~                                                           ~
+      |            {                                                                 }
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:37:26: warning: 2.0 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   37 |     return QRectF(-width/2.0, -m_headRadius*2.5 - 2*textHeight, width, height);
+      |                          ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:37:31: warning: '*' has higher precedence than '-'; add parentheses to explicitly specify the order of operations [readability-math-missing-parentheses]
+   37 |     return QRectF(-width/2.0, -m_headRadius*2.5 - 2*textHeight, width, height);
+      |                               ^~~~~~~~~~~~~~~~~
+      |                               (                )
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:37:45: warning: 2.5 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   37 |     return QRectF(-width/2.0, -m_headRadius*2.5 - 2*textHeight, width, height);
+      |                                             ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:37:51: warning: '*' has higher precedence than '-'; add parentheses to explicitly specify the order of operations [readability-math-missing-parentheses]
+   37 |     return QRectF(-width/2.0, -m_headRadius*2.5 - 2*textHeight, width, height);
+      |                                                   ^~~~~~~~~~~~~
+      |                                                   (           )
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:42:52: warning: 1.7 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   42 |     QRectF headRect(-m_headRadius, -m_headRadius * 1.7,
+      |                                                    ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:52:37: warning: 1.4 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   52 |     QRectF bodyRect(-m_headRadius * 1.4, -m_headRadius * 1.1, m_headRadius * 2.8, m_headRadius * 3.5);
+      |                                     ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:52:58: warning: 1.1 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   52 |     QRectF bodyRect(-m_headRadius * 1.4, -m_headRadius * 1.1, m_headRadius * 2.8, m_headRadius * 3.5);
+      |                                                          ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:52:78: warning: 2.8 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   52 |     QRectF bodyRect(-m_headRadius * 1.4, -m_headRadius * 1.1, m_headRadius * 2.8, m_headRadius * 3.5);
+      |                                                                              ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:52:98: warning: 3.5 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   52 |     QRectF bodyRect(-m_headRadius * 1.4, -m_headRadius * 1.1, m_headRadius * 2.8, m_headRadius * 3.5);
+      |                                                                                                  ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:54:32: warning: 200 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   54 |     painter->drawPie(bodyRect, 200 * 16, 140 * 16);
+      |                                ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:54:38: warning: 16 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   54 |     painter->drawPie(bodyRect, 200 * 16, 140 * 16);
+      |                                      ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:54:42: warning: 140 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   54 |     painter->drawPie(bodyRect, 200 * 16, 140 * 16);
+      |                                          ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:54:48: warning: 16 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   54 |     painter->drawPie(bodyRect, 200 * 16, 140 * 16);
+      |                                                ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:57:23: warning: 12 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   57 |     font.setPointSize(12);
+      |                       ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:60:19: warning: variable name 'fm' is too short, expected at least 3 characters [readability-identifier-length]
+   60 |     QFontMetricsF fm(font);
+      |                   ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:64:15: warning: variable name 'x' is too short, expected at least 3 characters [readability-identifier-length]
+   64 |         qreal x = -textWidth / 2.0;
+      |               ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:64:32: warning: 2.0 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   64 |         qreal x = -textWidth / 2.0;
+      |                                ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:65:15: warning: variable name 'y' is too short, expected at least 3 characters [readability-identifier-length]
+   65 |         qreal y = -m_headRadius * 2.5 - fm.height();
+      |               ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:65:19: warning: '*' has higher precedence than '-'; add parentheses to explicitly specify the order of operations [readability-math-missing-parentheses]
+   65 |         qreal y = -m_headRadius * 2.5 - fm.height();
+      |                   ^~~~~~~~~~~~~~~~~~~
+      |                   (                  )
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:65:35: warning: 2.5 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   65 |         qreal y = -m_headRadius * 2.5 - fm.height();
+      |                                   ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:76:11: warning: variable name 'x' is too short, expected at least 3 characters [readability-identifier-length]
+   76 |     qreal x = -textWidth / 2.0;
+      |           ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:76:28: warning: 2.0 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   76 |     qreal x = -textWidth / 2.0;
+      |                            ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:77:11: warning: variable name 'y' is too short, expected at least 3 characters [readability-identifier-length]
+   77 |     qreal y = -m_headRadius * 2.5;
+      |           ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:77:31: warning: 2.5 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+   77 |     qreal y = -m_headRadius * 2.5;
+      |                               ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:97:25: warning: narrowing conversion from 'qsizetype' (aka 'long long') to signed type 'int' is implementation-defined [bugprone-narrowing-conversions]
+   97 |         m_color_index = (m_color_index + 1) % g_colors.size();
+      |                         ^
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:139:20: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+  139 | QColor PlayerIcon::role_color()
+      | ~~~~~~             ^           
+      | auto                            -> QColor
+/home/milica/Desktop/2023_Analysis_lexy/Mafija/GUI/graphics_items/playericon.cpp:163:14: warning: parameter 'info' is passed by value and only copied once; consider moving it to avoid unnecessary copies [performance-unnecessary-value-param]
+    5 |     m_info = info;
+      |              ^   
+      |              std::move( )
+102645 warnings generated.
+205290 warnings generated.
+Suppressed 205220 warnings (205220 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+

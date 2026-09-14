@@ -1,0 +1,485 @@
+-- The CXX compiler identification is GNU 15.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Performing Test HAVE_STDATOMIC
+-- Performing Test HAVE_STDATOMIC - Success
+-- Found WrapAtomic: TRUE
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+-- Found WrapOpenGL: TRUE
+-- Found WrapVulkanHeaders: /usr/include
+-- The C compiler identification is GNU 15.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done (0.9s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/milica/Desktop/2023_Analysis_lexy/unit_tests/build
+[  0%] Built target Shared_autogen_timestamp_deps
+[  1%] Automatic MOC and UIC for target Shared
+[  1%] Built target Shared_autogen
+[  2%] Building CXX object server_client/Shared/CMakeFiles/Shared.dir/Shared_autogen/mocs_compilation.cpp.o
+[  4%] Building CXX object server_client/Shared/CMakeFiles/Shared.dir/voiceprotocol.cpp.o
+[  5%] Building CXX object server_client/Shared/CMakeFiles/Shared.dir/votinground.cpp.o
+[  7%] Building CXX object server_client/Shared/CMakeFiles/Shared.dir/protocol.cpp.o
+[  9%] Building CXX object server_client/Shared/CMakeFiles/Shared.dir/votecounter.cpp.o
+[  9%] Building CXX object server_client/Shared/CMakeFiles/Shared.dir/votingserver.cpp.o
+[ 12%] Building CXX object server_client/Shared/CMakeFiles/Shared.dir/nightaction.cpp.o
+[ 12%] Building CXX object server_client/Shared/CMakeFiles/Shared.dir/nightabilitiesserver.cpp.o
+[ 14%] Linking CXX static library libShared.a
+[ 15%] Built target Shared
+[ 15%] Built target Client_autogen_timestamp_deps
+[ 15%] Built target qtest_votecounter_autogen_timestamp_deps
+[ 15%] Built target Server_autogen_timestamp_deps
+[ 16%] Automatic MOC and UIC for target Client
+[ 18%] Automatic MOC and UIC for target Server
+[ 19%] Automatic MOC and UIC for target qtest_votecounter
+[ 19%] Built target Server_autogen
+[ 19%] Built target Client_autogen
+[ 22%] Building CXX object server_client/Server/CMakeFiles/Server.dir/chatserver.cpp.o
+[ 22%] Building CXX object server_client/Server/CMakeFiles/Server.dir/Server_autogen/mocs_compilation.cpp.o
+[ 25%] Building CXX object server_client/Server/CMakeFiles/Server.dir/voiceserver.cpp.o
+[ 25%] Building CXX object server_client/Server/CMakeFiles/Server.dir/serverworker.cpp.o
+[ 26%] Building CXX object server_client/Client/CMakeFiles/Client.dir/voiceclient.cpp.o
+[ 29%] Building CXX object server_client/Client/CMakeFiles/Client.dir/Client_autogen/mocs_compilation.cpp.o
+[ 29%] Building CXX object server_client/Client/CMakeFiles/Client.dir/chatclient.cpp.o
+[ 29%] Built target qtest_votecounter_autogen
+[ 32%] Building CXX object CMakeFiles/qtest_votecounter.dir/qtest_votecounter_autogen/mocs_compilation.cpp.o
+[ 32%] Building CXX object CMakeFiles/qtest_votecounter.dir/qtest/qtest_votecounter.cpp.o
+[ 33%] Linking CXX static library libClient.a
+[ 35%] Built target Client
+[ 35%] Built target game_autogen_timestamp_deps
+[ 36%] Automatic MOC and UIC for target game
+[ 38%] Linking CXX executable qtest_votecounter
+[ 39%] Built target qtest_votecounter
+[ 39%] Built target game_autogen
+[ 45%] Building CXX object game/CMakeFiles/game.dir/DoctorRole.cpp.o
+[ 45%] Building CXX object game/CMakeFiles/game.dir/Player.cpp.o
+[ 45%] Building CXX object game/CMakeFiles/game.dir/GameState.cpp.o
+[ 45%] Building CXX object game/CMakeFiles/game.dir/game_autogen/mocs_compilation.cpp.o
+[ 47%] Building CXX object game/CMakeFiles/game.dir/DetectiveRole.cpp.o
+[ 47%] Building CXX object game/CMakeFiles/game.dir/citizenrole.cpp.o
+[ 49%] Building CXX object game/CMakeFiles/game.dir/mafiarole.cpp.o
+[ 50%] Building CXX object game/CMakeFiles/game.dir/Role.cpp.o
+[ 52%] Building CXX object game/CMakeFiles/game.dir/gamemanager.cpp.o
+[ 53%] Linking CXX static library libServer.a
+[ 54%] Built target Server
+[ 56%] Linking CXX static library libgame.a
+[ 57%] Built target game
+[ 57%] Built target qtest_votinground_autogen_timestamp_deps
+[ 57%] Built target qtest_chatserver_autogen_timestamp_deps
+[ 57%] Built target qtest_votingserver_autogen_timestamp_deps
+[ 57%] Built target qtest_chatclient_autogen_timestamp_deps
+[ 57%] Built target qtest_protocol_autogen_timestamp_deps
+[ 57%] Built target qtest_gamestate_autogen_timestamp_deps
+[ 59%] Automatic MOC and UIC for target qtest_votinground
+[ 60%] Automatic MOC and UIC for target qtest_chatclient
+[ 61%] Automatic MOC and UIC for target qtest_chatserver
+[ 63%] Automatic MOC and UIC for target qtest_protocol
+[ 64%] Automatic MOC and UIC for target qtest_votingserver
+[ 66%] Automatic MOC and UIC for target qtest_gamestate
+[ 66%] Built target qtest_votingserver_autogen
+[ 66%] Built target qtest_chatserver_autogen
+[ 67%] Building CXX object CMakeFiles/qtest_chatserver.dir/qtest/qtest_chatserver.cpp.o
+[ 70%] Building CXX object CMakeFiles/qtest_votingserver.dir/qtest/qtest_votingserver.cpp.o
+[ 70%] Building CXX object CMakeFiles/qtest_votingserver.dir/qtest_votingserver_autogen/mocs_compilation.cpp.o
+[ 71%] Building CXX object CMakeFiles/qtest_chatserver.dir/qtest_chatserver_autogen/mocs_compilation.cpp.o
+[ 71%] Built target qtest_votinground_autogen
+[ 73%] Building CXX object CMakeFiles/qtest_votinground.dir/qtest_votinground_autogen/mocs_compilation.cpp.o
+[ 74%] Building CXX object CMakeFiles/qtest_votinground.dir/qtest/qtest_votinground.cpp.o
+[ 74%] Built target qtest_protocol_autogen
+[ 74%] Built target qtest_gamestate_autogen
+[ 74%] Built target qtest_chatclient_autogen
+[ 77%] Building CXX object CMakeFiles/qtest_protocol.dir/qtest/qtest_protocol.cpp.o
+[ 77%] Building CXX object CMakeFiles/qtest_protocol.dir/qtest_protocol_autogen/mocs_compilation.cpp.o
+[ 80%] Building CXX object CMakeFiles/qtest_gamestate.dir/qtest_gamestate_autogen/mocs_compilation.cpp.o
+[ 80%] Building CXX object CMakeFiles/qtest_gamestate.dir/qtest/qtest_gamestate.cpp.o
+[ 83%] Building CXX object CMakeFiles/qtest_chatclient.dir/qtest/qtest_chatclient.cpp.o
+[ 83%] Building CXX object CMakeFiles/qtest_chatclient.dir/qtest_chatclient_autogen/mocs_compilation.cpp.o
+[ 84%] Linking CXX executable qtest_votinground
+[ 85%] Built target qtest_votinground
+[ 87%] Linking CXX executable qtest_chatclient
+[ 88%] Built target qtest_chatclient
+[ 90%] Linking CXX executable qtest_protocol
+[ 91%] Linking CXX executable qtest_votingserver
+[ 92%] Built target qtest_protocol
+[ 94%] Linking CXX executable qtest_gamestate
+[ 95%] Linking CXX executable qtest_chatserver
+[ 97%] Built target qtest_votingserver
+[ 98%] Built target qtest_gamestate
+[100%] Built target qtest_chatserver
+UpdateCTestConfiguration  from :/home/milica/Desktop/2023_Analysis_lexy/unit_tests/build/DartConfiguration.tcl
+Test project /home/milica/Desktop/2023_Analysis_lexy/unit_tests/build
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: qtest_votecounter
+
+1: Test command: /home/milica/Desktop/2023_Analysis_lexy/unit_tests/build/qtest_votecounter
+1: Working Directory: /home/milica/Desktop/2023_Analysis_lexy/unit_tests/build
+1: Test timeout computed to be: 10000000
+1: ********* Start testing of VoteCounterTest *********
+1: Config: Using QtTest library 6.10.2, Qt 6.10.2 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 15.2.0), ubuntu 26.04
+1: PASS   : VoteCounterTest::initTestCase()
+1: PASS   : VoteCounterTest::votingForNobodyCanVote()
+1: FAIL!  : VoteCounterTest::votedNoneStrictlyWins() Compared values are not the same
+1:    Actual   (result.size()): 0
+1:    Expected (1)            : 1
+1:    Loc: [/home/milica/Desktop/2023_Analysis_lexy/unit_tests/qtest/qtest_votecounter.cpp(38)]
+1: PASS   : VoteCounterTest::votedNoneIsNotWinner()
+1: FAIL!  : VoteCounterTest::votedNoneTiedWithPlayer() Compared values are not the same
+1:    Actual   (result.size()): 0
+1:    Expected (2)            : 2
+1:    Loc: [/home/milica/Desktop/2023_Analysis_lexy/unit_tests/qtest/qtest_votecounter.cpp(72)]
+1: PASS   : VoteCounterTest::getVotesIncludesVotingForNobodyPlayer()
+1: FAIL!  : VoteCounterTest::votingForNobodyAsPlayerAndVoteTarget() Compared values are not the same
+1:    Actual   (result.size()): 0
+1:    Expected (1)            : 1
+1:    Loc: [/home/milica/Desktop/2023_Analysis_lexy/unit_tests/qtest/qtest_votecounter.cpp(124)]
+1: PASS   : VoteCounterTest::cleanupTestCase()
+1: Totals: 5 passed, 3 failed, 0 skipped, 0 blacklisted, 1ms
+1: ********* Finished testing of VoteCounterTest *********
+1/7 Test #1: qtest_votecounter ................***Failed    0.01 sec
+test 2
+    Start 2: qtest_votinground
+
+2: Test command: /home/milica/Desktop/2023_Analysis_lexy/unit_tests/build/qtest_votinground
+2: Working Directory: /home/milica/Desktop/2023_Analysis_lexy/unit_tests/build
+2: Test timeout computed to be: 10000000
+2: ********* Start testing of VotingRoundTest *********
+2: Config: Using QtTest library 6.10.2, Qt 6.10.2 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 15.2.0), ubuntu 26.04
+2: PASS   : VotingRoundTest::initTestCase()
+2: FAIL!  : VotingRoundTest::playerNamedVotingForNobodyCanBeEliminated() Compared values are not the same
+2:    Actual   (receivedResult.size()): 0
+2:    Expected (1)                    : 1
+2:    Loc: [/home/milica/Desktop/2023_Analysis_lexy/unit_tests/qtest/qtest_votinground.cpp(181)]
+2: PASS   : VotingRoundTest::voteBeforeVotingStartsIsIgnored()
+2: PASS   : VotingRoundTest::startingVotingTwiceDoesNotResetCurrentVotes()
+2: PASS   : VotingRoundTest::endingVotingWhenNoRoundIsActiveDoesNothing()
+2: PASS   : VotingRoundTest::cleanupTestCase()
+2: Totals: 5 passed, 1 failed, 0 skipped, 0 blacklisted, 1ms
+2: ********* Finished testing of VotingRoundTest *********
+2/7 Test #2: qtest_votinground ................***Failed    0.12 sec
+test 3
+    Start 3: qtest_chatserver
+
+3: Test command: /home/milica/Desktop/2023_Analysis_lexy/unit_tests/build/qtest_chatserver
+3: Working Directory: /home/milica/Desktop/2023_Analysis_lexy/unit_tests/build
+3: Test timeout computed to be: 10000000
+3: ********* Start testing of ChatServerTest *********
+3: Config: Using QtTest library 6.10.2, Qt 6.10.2 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 15.2.0), ubuntu 26.04
+3: PASS   : ChatServerTest::initTestCase()
+3: PASS   : ChatServerTest::disconnectedPlayerIsRemovedAndMarkedDead()
+3: PASS   : ChatServerTest::gameOverMessageIsBroadcastWhenGameEnds()
+3: PASS   : ChatServerTest::validGameStartCreatesAllPlayers()
+3: QDEBUG : ChatServerTest::duplicatePlayerInStartGameIsRejected() Broj zivih igraca u GameState: 5
+3: QDEBUG : ChatServerTest::duplicatePlayerInStartGameIsRejected() Zivi igraci: QList("Marko", "Petar", "Ana", "Jovana", "Nikola")
+3: FAIL!  : ChatServerTest::duplicatePlayerInStartGameIsRejected() Compared values are not the same
+3:    Actual   (alivePlayers.size()): 5
+3:    Expected (6)                  : 6
+3:    Loc: [/home/milica/Desktop/2023_Analysis_lexy/unit_tests/qtest/qtest_chatserver.cpp(724)]
+3: QWARN  : ChatServerTest::gameDoesNotStartWhenRoleCountDiffersFromConnectedPlayers() Broj uloga i igrča se ne poklapa
+3: QDEBUG : ChatServerTest::gameDoesNotStartWhenRoleCountDiffersFromConnectedPlayers() Broj igraca u GameState: 0
+3: FAIL!  : ChatServerTest::gameDoesNotStartWhenRoleCountDiffersFromConnectedPlayers() Compared values are not the same
+3:    Actual   (alivePlayers.size()): 0
+3:    Expected (6)                  : 6
+3:    Loc: [/home/milica/Desktop/2023_Analysis_lexy/unit_tests/qtest/qtest_chatserver.cpp(820)]
+3: PASS   : ChatServerTest::startGameWithTooManyPlayersIsRejected()
+3: PASS   : ChatServerTest::startGameWithTooFewPlayersIsRejected()
+3: PASS   : ChatServerTest::startGameWithEmptyRolesIsIgnored()
+3: QDEBUG : ChatServerTest::clientCanUseNightAbilityAsAnotherPlayer() VOTER  "Marko"  | TARGET  "Petar" 
+3: 
+3: QDEBUG : ChatServerTest::clientCanUseNightAbilityAsAnotherPlayer() ALIVE PLAYERS: 
+3: QDEBUG : ChatServerTest::clientCanUseNightAbilityAsAnotherPlayer() "Ana"  
+3: QDEBUG : ChatServerTest::clientCanUseNightAbilityAsAnotherPlayer() "Marko"  
+3: QDEBUG : ChatServerTest::clientCanUseNightAbilityAsAnotherPlayer() "Petar"  
+3: FAIL!  : ChatServerTest::clientCanUseNightAbilityAsAnotherPlayer() Compared values are not the same
+3:    Actual   (abilitySpy.count()): 1
+3:    Expected (0)                 : 0
+3:    Loc: [/home/milica/Desktop/2023_Analysis_lexy/unit_tests/qtest/qtest_chatserver.cpp(1040)]
+3: QDEBUG : ChatServerTest::validNightAbilityEmitsPlayerUsedAbility() VOTER  "Ana"  | TARGET  "Marko" 
+3: 
+3: QDEBUG : ChatServerTest::validNightAbilityEmitsPlayerUsedAbility() ALIVE PLAYERS: 
+3: QDEBUG : ChatServerTest::validNightAbilityEmitsPlayerUsedAbility() "Ana"  
+3: QDEBUG : ChatServerTest::validNightAbilityEmitsPlayerUsedAbility() "Marko"  
+3: PASS   : ChatServerTest::validNightAbilityEmitsPlayerUsedAbility()
+3: PASS   : ChatServerTest::messageWithoutTextIsIgnored()
+3: PASS   : ChatServerTest::emptyMessageIsIgnored()
+3: PASS   : ChatServerTest::chatMessageIsSentToAnotherClient()
+3: QDEBUG : ChatServerTest::clientCanVoteAsAnotherPlayer() VOTER  "Marko"  | TARGET  "Petar" 
+3: 
+3: QDEBUG : ChatServerTest::clientCanVoteAsAnotherPlayer() ALIVE PLAYERS: 
+3: QDEBUG : ChatServerTest::clientCanVoteAsAnotherPlayer() "Ana"  
+3: QDEBUG : ChatServerTest::clientCanVoteAsAnotherPlayer() "Marko"  
+3: QDEBUG : ChatServerTest::clientCanVoteAsAnotherPlayer() "Petar"  
+3: QDEBUG : ChatServerTest::clientCanVoteAsAnotherPlayer() Saljem voting signal
+3: 
+3: FAIL!  : ChatServerTest::clientCanVoteAsAnotherPlayer() Compared values are not the same
+3:    Actual   (voteSpy.count()): 1
+3:    Expected (0)              : 0
+3:    Loc: [/home/milica/Desktop/2023_Analysis_lexy/unit_tests/qtest/qtest_chatserver.cpp(1321)]
+3: QDEBUG : ChatServerTest::invalidTargetIsRejected() VOTER  "Ana"  | TARGET  "Nepostojeci" 
+3: 
+3: QDEBUG : ChatServerTest::invalidTargetIsRejected() ALIVE PLAYERS: 
+3: QDEBUG : ChatServerTest::invalidTargetIsRejected() "Ana"  
+3: PASS   : ChatServerTest::invalidTargetIsRejected()
+3: QDEBUG : ChatServerTest::invalidVoterIsRejected() VOTER  "Nepostojeci"  | TARGET  "Ana" 
+3: 
+3: QDEBUG : ChatServerTest::invalidVoterIsRejected() ALIVE PLAYERS: 
+3: QDEBUG : ChatServerTest::invalidVoterIsRejected() "Ana"  
+3: PASS   : ChatServerTest::invalidVoterIsRejected()
+3: QDEBUG : ChatServerTest::validVoteEmitsPlayerVoted() VOTER  "Ana"  | TARGET  "Marko" 
+3: 
+3: QDEBUG : ChatServerTest::validVoteEmitsPlayerVoted() ALIVE PLAYERS: 
+3: QDEBUG : ChatServerTest::validVoteEmitsPlayerVoted() "Ana"  
+3: QDEBUG : ChatServerTest::validVoteEmitsPlayerVoted() "Marko"  
+3: QDEBUG : ChatServerTest::validVoteEmitsPlayerVoted() Saljem voting signal
+3: 
+3: PASS   : ChatServerTest::validVoteEmitsPlayerVoted()
+3: PASS   : ChatServerTest::votingForNobodyUsernameIsAccepted()
+3: PASS   : ChatServerTest::validUsernameIsAccepted()
+3: PASS   : ChatServerTest::duplicateUsernameIsRejected()
+3: PASS   : ChatServerTest::requestListsReturnsOneListMessage()
+3: FAIL!  : ChatServerTest::playerSelectionSendsOnlyOneWaitingRoomList() Compared values are not the same
+3:    Actual   (waitingRoomMessages): 2
+3:    Expected (1)                  : 1
+3:    Loc: [/home/milica/Desktop/2023_Analysis_lexy/unit_tests/qtest/qtest_chatserver.cpp(1795)]
+3: PASS   : ChatServerTest::cleanupTestCase()
+3: Totals: 19 passed, 5 failed, 0 skipped, 0 blacklisted, 20088ms
+3: ********* Finished testing of ChatServerTest *********
+3/7 Test #3: qtest_chatserver .................***Failed   20.20 sec
+test 4
+    Start 4: qtest_protocol
+
+4: Test command: /home/milica/Desktop/2023_Analysis_lexy/unit_tests/build/qtest_protocol
+4: Working Directory: /home/milica/Desktop/2023_Analysis_lexy/unit_tests/build
+4: Test timeout computed to be: 10000000
+4: ********* Start testing of ProtocolTest *********
+4: Config: Using QtTest library 6.10.2, Qt 6.10.2 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 15.2.0), ubuntu 26.04
+4: PASS   : ProtocolTest::initTestCase()
+4: PASS   : ProtocolTest::messageTypeFromString(login)
+4: PASS   : ProtocolTest::messageTypeFromString(message)
+4: PASS   : ProtocolTest::messageTypeFromString(waiting_room_lists)
+4: PASS   : ProtocolTest::messageTypeFromString(player_selection)
+4: PASS   : ProtocolTest::messageTypeFromString(request_lists)
+4: PASS   : ProtocolTest::messageTypeFromString(game_state_update)
+4: PASS   : ProtocolTest::messageTypeFromString(join_game)
+4: PASS   : ProtocolTest::messageTypeFromString(leave_game)
+4: PASS   : ProtocolTest::messageTypeFromString(night_action)
+4: PASS   : ProtocolTest::messageTypeFromString(vote)
+4: PASS   : ProtocolTest::messageTypeFromString(newuser)
+4: PASS   : ProtocolTest::messageTypeFromString(start_game)
+4: PASS   : ProtocolTest::messageTypeFromString(role_assignment)
+4: PASS   : ProtocolTest::messageTypeFromString(userdisconnected)
+4: PASS   : ProtocolTest::messageTypeFromString(night_started)
+4: PASS   : ProtocolTest::messageTypeFromString(night_ended)
+4: PASS   : ProtocolTest::messageTypeFromString(voting_started)
+4: PASS   : ProtocolTest::messageTypeFromString(voting_ended)
+4: PASS   : ProtocolTest::messageTypeFromString(day_started)
+4: PASS   : ProtocolTest::messageTypeFromString(game_over)
+4: PASS   : ProtocolTest::messageTypeFromString(case insensitive)
+4: PASS   : ProtocolTest::messageTypeFromString(unknown)
+4: PASS   : ProtocolTest::messageTypeToString(login)
+4: PASS   : ProtocolTest::messageTypeToString(message)
+4: PASS   : ProtocolTest::messageTypeToString(player_selection)
+4: PASS   : ProtocolTest::messageTypeToString(waiting_room_lists)
+4: PASS   : ProtocolTest::messageTypeToString(request_lists)
+4: PASS   : ProtocolTest::messageTypeToString(join_game)
+4: PASS   : ProtocolTest::messageTypeToString(leave_game)
+4: PASS   : ProtocolTest::messageTypeToString(start_game)
+4: PASS   : ProtocolTest::messageTypeToString(night_action)
+4: PASS   : ProtocolTest::messageTypeToString(vote)
+4: PASS   : ProtocolTest::messageTypeToString(game_state_update)
+4: PASS   : ProtocolTest::messageTypeToString(role_assignment)
+4: PASS   : ProtocolTest::messageTypeToString(newuser)
+4: PASS   : ProtocolTest::messageTypeToString(userdisconnected)
+4: PASS   : ProtocolTest::messageTypeToString(night_started)
+4: PASS   : ProtocolTest::messageTypeToString(night_ended)
+4: PASS   : ProtocolTest::messageTypeToString(voting_started)
+4: PASS   : ProtocolTest::messageTypeToString(voting_ended)
+4: PASS   : ProtocolTest::messageTypeToString(day_started)
+4: PASS   : ProtocolTest::messageTypeToString(game_over)
+4: PASS   : ProtocolTest::messageTypeToString(unknown)
+4: PASS   : ProtocolTest::roleConversions()
+4: PASS   : ProtocolTest::createLoginMessage()
+4: PASS   : ProtocolTest::createChatMessage()
+4: PASS   : ProtocolTest::createNightAction()
+4: PASS   : ProtocolTest::createAbilityUse()
+4: PASS   : ProtocolTest::createVoteMessage()
+4: PASS   : ProtocolTest::createPlayerState()
+4: PASS   : ProtocolTest::createGameStateUpdate()
+4: PASS   : ProtocolTest::createRoleAssignmentMessage()
+4: PASS   : ProtocolTest::createStartGame()
+4: PASS   : ProtocolTest::createPhaseMessages()
+4: PASS   : ProtocolTest::createVotingEndedMessage()
+4: PASS   : ProtocolTest::createNightEndedMessage()
+4: PASS   : ProtocolTest::createGameOverMessage()
+4: PASS   : ProtocolTest::createPlayerSelection()
+4: PASS   : ProtocolTest::createListsRequest()
+4: PASS   : ProtocolTest::createWaitingRoomLists()
+4: PASS   : ProtocolTest::cleanupTestCase()
+4: Totals: 62 passed, 0 failed, 0 skipped, 0 blacklisted, 1ms
+4: ********* Finished testing of ProtocolTest *********
+4/7 Test #4: qtest_protocol ...................   Passed    0.11 sec
+test 5
+    Start 5: qtest_votingserver
+
+5: Test command: /home/milica/Desktop/2023_Analysis_lexy/unit_tests/build/qtest_votingserver
+5: Working Directory: /home/milica/Desktop/2023_Analysis_lexy/unit_tests/build
+5: Test timeout computed to be: 10000000
+5: ********* Start testing of VotingServerTest *********
+5: Config: Using QtTest library 6.10.2, Qt 6.10.2 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 15.2.0), ubuntu 26.04
+5: PASS   : VotingServerTest::initTestCase()
+5: PASS   : VotingServerTest::startVotingChangesPhaseAndEmitsSignal()
+5: PASS   : VotingServerTest::startingVotingTwiceIsIgnored()
+5: PASS   : VotingServerTest::singleVotingResultEndsVoting()
+5: PASS   : VotingServerTest::emptyVotingResultEndsVoting()
+5: PASS   : VotingServerTest::tieInFirstRoundStartsSecondRound()
+5: PASS   : VotingServerTest::tieInSecondRoundEndsVoting()
+5: PASS   : VotingServerTest::resultOutsideVotingPhaseIsIgnored()
+5: PASS   : VotingServerTest::cleanupTestCase()
+5: Totals: 9 passed, 0 failed, 0 skipped, 0 blacklisted, 1ms
+5: ********* Finished testing of VotingServerTest *********
+5/7 Test #5: qtest_votingserver ...............   Passed    0.10 sec
+test 6
+    Start 6: qtest_chatclient
+
+6: Test command: /home/milica/Desktop/2023_Analysis_lexy/unit_tests/build/qtest_chatclient
+6: Working Directory: /home/milica/Desktop/2023_Analysis_lexy/unit_tests/build
+6: Test timeout computed to be: 10000000
+6: ********* Start testing of ChatClientTest *********
+6: Config: Using QtTest library 6.10.2, Qt 6.10.2 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 15.2.0), ubuntu 26.04
+6: PASS   : ChatClientTest::initTestCase()
+6: QINFO  : ChatClientTest::userLeftWithoutUsernameIsIgnored() qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 8.0.1-3ubuntu2 GPL version 2 or later
+6: Failed to open VDPAU backend libvdpau_nvidia.so: cannot open shared object file: No such file or directory
+6: QWARN  : ChatClientTest::userLeftWithoutUsernameIsIgnored() spaVisitChoice: parse error "Object: size 136, type Spa:Pod:Object:Param:Format (262147), id Spa:Enum:ParamId:EnumFormat (3)" "  Prop: key Spa:Pod:Object:Param:Format:mediaType (1), flags 00000000" "    Id 1        (Spa:Enum:MediaType:audio)" "  Prop: key Spa:Pod:Object:Param:Format:mediaSubtype (2), flags 00000000" "    Id 1        (Spa:Enum:MediaSubtype:raw)" "  Prop: key Spa:Pod:Object:Param:Format:Audio:format (65537), flags 00000000" "    Id 518      (Spa:Enum:AudioFormat:F32P)" "  Prop: key Spa:Pod:Object:Param:Format:Audio:channels (65540), flags 00000000" "    Int 1" "  Prop: key Spa:Pod:Object:Param:Format:Audio:position (65541), flags 00000000" "    Array: child.size 4, child.type Spa:Id" "      Id 2        (Spa:Enum:AudioChannel:MONO)"
+6: QWARN  : ChatClientTest::userLeftWithoutUsernameIsIgnored() spaVisitChoice: parse error "Object: size 136, type Spa:Pod:Object:Param:Format (262147), id Spa:Enum:ParamId:EnumFormat (3)" "  Prop: key Spa:Pod:Object:Param:Format:mediaType (1), flags 00000000" "    Id 1        (Spa:Enum:MediaType:audio)" "  Prop: key Spa:Pod:Object:Param:Format:mediaSubtype (2), flags 00000000" "    Id 1        (Spa:Enum:MediaSubtype:raw)" "  Prop: key Spa:Pod:Object:Param:Format:Audio:format (65537), flags 00000000" "    Id 518      (Spa:Enum:AudioFormat:F32P)" "  Prop: key Spa:Pod:Object:Param:Format:Audio:channels (65540), flags 00000000" "    Int 2" "  Prop: key Spa:Pod:Object:Param:Format:Audio:position (65541), flags 00000000" "    Array: child.size 4, child.type Spa:Id" "      Id 3        (Spa:Enum:AudioChannel:FL)" "      Id 4        (Spa:Enum:AudioChannel:FR)"
+6: PASS   : ChatClientTest::userLeftWithoutUsernameIsIgnored()
+6: PASS   : ChatClientTest::userJoinedEmitsSignal()
+6: PASS   : ChatClientTest::userLeftEmitsSignal()
+6: PASS   : ChatClientTest::loginSendsCorrectJson()
+6: PASS   : ChatClientTest::disconnectFromHostEmitsDisconnected()
+6: PASS   : ChatClientTest::gameStateUpdateWithoutPlayersIsIgnored()
+6: PASS   : ChatClientTest::gameStateUpdateWithInvalidPlayersTypeIsIgnored()
+6: PASS   : ChatClientTest::gameStateUpdateWithInvalidPhaseIsIgnored()
+6: PASS   : ChatClientTest::gameStateUpdateWithNullDayNumberIsIgnored()
+6: PASS   : ChatClientTest::gameStateUpdateSkipsNonObjectPlayer()
+6: PASS   : ChatClientTest::roleAssignmentWithoutRoleIsIgnored()
+6: PASS   : ChatClientTest::roleAssignmentWithInvalidRolesListIsIgnored()
+6: PASS   : ChatClientTest::roleAssignmentWithEmptyUsernameIsIgnored()
+6: PASS   : ChatClientTest::roleAssignmentSkipsNonObjectRoleEntry()
+6: PASS   : ChatClientTest::userJoinWithoutUsernameIsIgnored()
+6: PASS   : ChatClientTest::votingForNobodyCanBeUsedAsUsername()
+6: PASS   : ChatClientTest::gameStateUpdateEmitsParsedPlayers()
+6: PASS   : ChatClientTest::roleAssignmentEmitsCorrectData()
+6: PASS   : ChatClientTest::waitingRoomListsAreParsed()
+6: PASS   : ChatClientTest::votingEndedEmitsVotesAndTargets()
+6: PASS   : ChatClientTest::nightEndedEmitsKilledPlayerAndInfo()
+6: PASS   : ChatClientTest::sendSelectedPlayerSendsCorrectJson()
+6: PASS   : ChatClientTest::getPlayerListsSendsCorrectJson()
+6: PASS   : ChatClientTest::sendStartGameSendsCorrectJson()
+6: PASS   : ChatClientTest::connectToServerEmitsConnected()
+6: PASS   : ChatClientTest::successfulLoginEmitsLoggedIn()
+6: PASS   : ChatClientTest::failedLoginEmitsLoginError()
+6: PASS   : ChatClientTest::invalidLoginResponseIsIgnored()
+6: PASS   : ChatClientTest::validChatMessageIsReceived()
+6: PASS   : ChatClientTest::messageWithoutTextIsIgnored()
+6: PASS   : ChatClientTest::messageWithoutSenderIsIgnored()
+6: PASS   : ChatClientTest::messageWithoutAliveIsIgnored()
+6: PASS   : ChatClientTest::gameOverEmitsWinner()
+6: PASS   : ChatClientTest::invalidGameOverIsIgnored()
+6: PASS   : ChatClientTest::votingStartedEmitsSignal()
+6: PASS   : ChatClientTest::dayStartedEmitsSignal()
+6: PASS   : ChatClientTest::nightStartedEmitsSignal()
+6: PASS   : ChatClientTest::sendMessageSendsCorrectJson()
+6: PASS   : ChatClientTest::emptyMessageIsNotSent()
+6: PASS   : ChatClientTest::sendVoteSendsCorrectJson()
+6: PASS   : ChatClientTest::emptyVoteIsNotSent()
+6: PASS   : ChatClientTest::cleanupTestCase()
+6: Totals: 43 passed, 0 failed, 0 skipped, 0 blacklisted, 2387ms
+6: ********* Finished testing of ChatClientTest *********
+6/7 Test #6: qtest_chatclient .................   Passed    2.56 sec
+test 7
+    Start 7: qtest_gamestate
+
+7: Test command: /home/milica/Desktop/2023_Analysis_lexy/unit_tests/build/qtest_gamestate
+7: Working Directory: /home/milica/Desktop/2023_Analysis_lexy/unit_tests/build
+7: Test timeout computed to be: 10000000
+7: ********* Start testing of GameStateTest *********
+7: Config: Using QtTest library 6.10.2, Qt 6.10.2 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 15.2.0), ubuntu 26.04
+7: PASS   : GameStateTest::initTestCase()
+7: PASS   : GameStateTest::mafiaPlayerIsConvertedToPlayerState()
+7: PASS   : GameStateTest::citizenPlayerIsConvertedToPlayerState()
+7: PASS   : GameStateTest::detectivePlayerIsConvertedToPlayerState()
+7: PASS   : GameStateTest::doctorPlayerIsConvertedToPlayerState()
+7: PASS   : GameStateTest::nonExistingPlayerCannotAct()
+7: PASS   : GameStateTest::deadPlayerCannotAct()
+7: PASS   : GameStateTest::playerWithoutRoleCannotAct()
+7: PASS   : GameStateTest::mafiaCanAct()
+7: PASS   : GameStateTest::citizenCannotAct()
+7: PASS   : GameStateTest::doctorCanAct()
+7: PASS   : GameStateTest::detectiveCanAct()
+7: PASS   : GameStateTest::deadPlayerCannotChat()
+7: PASS   : GameStateTest::alivePlayerCanChatDuringDay()
+7: PASS   : GameStateTest::alivePlayerCanChatDuringDiscussion()
+7: PASS   : GameStateTest::mafiaCanChatDuringNight()
+7: PASS   : GameStateTest::citizenCannotChatDuringNight()
+7: PASS   : GameStateTest::alivePlayerCannotChatDuringVoting()
+7: PASS   : GameStateTest::nonExistingPlayerCannotChat()
+7: PASS   : GameStateTest::addNullPlayerIsIgnored()
+7: PASS   : GameStateTest::nonExistingPlayerIsNotAlive()
+7: PASS   : GameStateTest::killingNonExistingPlayerIsIgnored()
+7: PASS   : GameStateTest::killingAlreadyDeadPlayerIsIgnored()
+7: PASS   : GameStateTest::nonExistingPlayerCannotVote()
+7: PASS   : GameStateTest::alivePlayerCanVoteDuringVoting()
+7: PASS   : GameStateTest::playerCannotVoteOutsideVoting()
+7: PASS   : GameStateTest::deadPlayerCannotVote()
+7: PASS   : GameStateTest::alivePlayerIsValidTarget()
+7: PASS   : GameStateTest::votingTimeIsTrueDuringVoting()
+7: PASS   : GameStateTest::votingTimeIsTrueDuringMafiaVoting()
+7: PASS   : GameStateTest::votingTimeIsFalseDuringDay()
+7: PASS   : GameStateTest::nightIsTrueDuringNight()
+7: PASS   : GameStateTest::nightIsFalseDuringDay()
+7: PASS   : GameStateTest::winnerIsNoneBeforeGameOver()
+7: PASS   : GameStateTest::phaseDescriptionIsDay()
+7: PASS   : GameStateTest::phaseDescriptionIsNight()
+7: PASS   : GameStateTest::phaseDescriptionIsDiscussion()
+7: PASS   : GameStateTest::phaseDescriptionIsVoting()
+7: PASS   : GameStateTest::phaseDescriptionIsMafiaVoting()
+7: PASS   : GameStateTest::phaseDescriptionIsEnd()
+7: PASS   : GameStateTest::chatPermissionIsAllAliveDuringDay()
+7: PASS   : GameStateTest::chatPermissionIsAllAliveDuringDiscussion()
+7: PASS   : GameStateTest::chatPermissionIsMafiaOnlyDuringNight()
+7: PASS   : GameStateTest::chatPermissionIsNoneDuringVoting()
+7: PASS   : GameStateTest::gameIsNotOverAfterReset()
+7: PASS   : GameStateTest::existingPlayerExists()
+7: PASS   : GameStateTest::unknownPlayerDoesNotExist()
+7: PASS   : GameStateTest::nonExistingPlayerIsNotValidTarget()
+7: PASS   : GameStateTest::deadPlayerIsNotValidTarget()
+7: PASS   : GameStateTest::cleanupTestCase()
+7: Totals: 50 passed, 0 failed, 0 skipped, 0 blacklisted, 1ms
+7: ********* Finished testing of GameStateTest *********
+7/7 Test #7: qtest_gamestate ..................   Passed    0.09 sec
+
+57% tests passed, 3 tests failed out of 7
+
+Total Test time (real) =  23.20 sec
+
+The following tests FAILED:
+	  1 - qtest_votecounter (Failed)
+	  2 - qtest_votinground (Failed)
+	  3 - qtest_chatserver (Failed)
+Errors while running CTest
+Output from these tests are in: /home/milica/Desktop/2023_Analysis_lexy/unit_tests/build/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
