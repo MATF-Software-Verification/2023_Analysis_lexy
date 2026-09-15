@@ -155,5 +155,15 @@ Rezultati analize čuvaju se u fajlu `lizard_results.txt`.
 
 ## Spisak zaključaka
 
+* Postojećih **40 Catch2 test slučajeva sa 252 provere** uspešno prolazi, dok su dodatni QTest testovi otkrili problem sa vrednošću `voting_for_nobody`, koja se može koristiti i kao korisničko ime stvarnog igrača.
+* Kombinovani testni skup ostvaruje pokrivenost od **77,3% linija, 80,7% funkcija i 49,8% grana**.
+* `clang-tidy` je pronašao potencijalno rizične konstrukcije, uključujući **sužavajuće numeričke konverzije, identične grane i lako zamenljive parametre**, kao i preporuke vezane za performanse, čitljivost i modernizaciju koda.
+* Cppcheck je prijavio **32 nalaza iz kategorije performansi**, uglavnom vezanih za nepotrebno prosleđivanje i kopiranje objekata po vrednosti; nisu prijavljeni nalazi iz kategorija `warning` i `portability`.
+* Valgrind Memcheck je tokom kompletne partije registrovao **izgubljenu memoriju povezanu sa objektima `CitizenRole`, `MafiaRole` i `DetectiveRole`**, kreiranim prilikom pokretanja igre.
+* libFuzzer je za 60 sekundi izvršio **1.123.223 iteracija** nad komponentom `protocol` i nije pronašao ulaz koji izaziva pad fuzz targeta.
+* Lizard je među **301 analiziranom funkcijom** izdvojio **10 funkcija** koje prelaze zadati prag kompleksnosti ili dužine; najveći `CCN` iznosi **21**.
+
+Detaljna analiza rezultata i pojedinačnih nalaza nalazi se u fajlu [`ProjectAnalysisReport.md`](ProjectAnalysisReport.md).
+
 
 
